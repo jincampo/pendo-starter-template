@@ -80,7 +80,8 @@ export function PrismPageLeftSide({
         <img 
           src={prismLogo} 
           alt="Prism Design System" 
-          className="h-8 w-auto" 
+          className="w-auto" 
+          style={{ height: '120px' }}
         />
       </div>
       
