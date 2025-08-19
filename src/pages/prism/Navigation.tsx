@@ -84,7 +84,7 @@ const [selectedItem, setSelectedItem] = useState('product');
           <div style={{ position: 'relative' }}>
             <PendoNavigation 
               isOpen={isExpanded}
-              selectedItem={selectedSection}
+              selectedItem={selectedSection as any}
               onCollapseClick={() => setIsExpanded(!isExpanded)}
               disableNavigation
               fixed={false}
@@ -220,7 +220,7 @@ const handleSectionChange = (section) => {
             <div style={{ position: 'relative' }}>
               <PendoNavigation 
                 isOpen={isExpanded}
-                selectedItem={selectedSection}
+                selectedItem={selectedSection as any}
                 onCollapseClick={() => setIsExpanded(!isExpanded)}
                 disableNavigation
                 fixed={false}

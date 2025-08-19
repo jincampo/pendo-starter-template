@@ -45,7 +45,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const DatePickerDemo: React.FC = () => {
+const DatePickerDemo = (): ComponentStory[] => {
   const [basicDate, setBasicDate] = useState<Date | undefined>(new Date());
   const [meetingDate, setMeetingDate] = useState<Date | undefined>();
   const [birthdayDate, setBirthdayDate] = useState<Date | undefined>();
@@ -84,7 +84,7 @@ const DatePickerDemo: React.FC = () => {
           <DatePicker
             label="Select Date"
             value={basicDate}
-            onValueChange={setBasicDate}
+            onValueChange={(date) => setBasicDate(Array.isArray(date) ? date[0] : date)}
             placeholder="Choose a date"
           />
           <p style={{ marginTop: 'var(--spacing-sm)', fontSize: 'var(--font-size-sm)', color: 'var(--color-gray-70)' }}>
@@ -163,14 +163,14 @@ const DatePickerDemo: React.FC = () => {
           <DatePicker
             label="Meeting Date"
             value={meetingDate}
-            onValueChange={setMeetingDate}
+            onValueChange={(date) => setMeetingDate(Array.isArray(date) ? date[0] : date)}
             minDate={tomorrow}
             placeholder="Select future date"
           />
           <DatePicker
             label="Birth Date"
             value={birthdayDate}
-            onValueChange={setBirthdayDate}
+            onValueChange={(date) => setBirthdayDate(Array.isArray(date) ? date[0] : date)}
             maxDate={new Date()}
             placeholder="Select birth date"
           />
@@ -282,7 +282,7 @@ const isWeekday = (date: Date) => {
           <DatePicker
             label="Project Deadline"
             value={projectDate}
-            onValueChange={setProjectDate}
+            onValueChange={(date) => setProjectDate(Array.isArray(date) ? date[0] : date)}
             minDate={new Date()}
             placeholder="Select deadline"
             required

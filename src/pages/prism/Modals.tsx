@@ -45,7 +45,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const ModalsDemo: React.FC = () => {
+const ModalsDemo = (): ComponentStory[] => {
   const [showBasic, setShowBasic] = useState(false);
   const [showSmall, setShowSmall] = useState(false);
   const [showLarge, setShowLarge] = useState(false);

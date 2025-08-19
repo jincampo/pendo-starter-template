@@ -35,7 +35,7 @@ export default function Prism() {
                         </Button>
                       )}
                       {state === 'Icon Only' && (
-                        <Button size="icon">
+                        <Button size="mini">
                           <Plus className="h-4 w-4" />
                         </Button>
                       )}
@@ -63,7 +63,7 @@ export default function Prism() {
                         </Button>
                       )}
                       {state === 'Icon Only' && (
-                        <Button variant="secondary" size="icon">
+                        <Button variant="secondary" size="mini">
                           <Plus className="h-4 w-4" />
                         </Button>
                       )}

@@ -44,7 +44,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const ProgressDemo: React.FC = () => {
+const ProgressDemo = (): ComponentStory[] => {
   const [animatedValue, setAnimatedValue] = useState(30);
   const [uploadProgress, setUploadProgress] = useState(0);
 
@@ -151,19 +151,19 @@ const ProgressDemo: React.FC = () => {
         <div className="space-y-4">
           <div className="space-y-2">
             <div className="text-sm text-[var(--color-gray-70)]">Primary (Default)</div>
-            <LinearProgress value={60} variant="primary" />
+            <LinearProgress value={60} color="primary" />
           </div>
           <div className="space-y-2">
             <div className="text-sm text-[var(--color-gray-70)]">Success</div>
-            <LinearProgress value={60} variant="success" />
+            <LinearProgress value={60} color="success" />
           </div>
           <div className="space-y-2">
             <div className="text-sm text-[var(--color-gray-70)]">Warning</div>
-            <LinearProgress value={60} variant="warning" />
+            <LinearProgress value={60} color="warning" />
           </div>
           <div className="space-y-2">
             <div className="text-sm text-[var(--color-gray-70)]">Error</div>
-            <LinearProgress value={60} variant="error" />
+            <LinearProgress value={60} color="error" />
           </div>
         </div>
       )

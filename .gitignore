@@ -26,3 +26,4 @@ dist-ssr
 # Large Figma export files (exceed GitHub 100MB limit)
 DS package/figma_split/figma_document.json
 DS package/figma_split/document_detailed/children.json
+.vercel

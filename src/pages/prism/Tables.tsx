@@ -71,7 +71,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const TablesDemo: React.FC = () => {
+const TablesDemo = (): ComponentStory[] => {
   const [selectedUsers, setSelectedUsers] = useState<number[]>([]);
   const [starredUsers, setStarredUsers] = useState<number[]>([1, 3]);
 
@@ -329,7 +329,7 @@ const TablesDemo: React.FC = () => {
               title: 'Price',
               type: 'custom',
               sortable: true,
-              render: (value) => `$${value.toFixed(2)}`
+              render: (value) => `$${(typeof value === 'number' ? value : 0).toFixed(2)}`
             },
             {
               key: 'stock',
@@ -339,7 +339,7 @@ const TablesDemo: React.FC = () => {
               render: (value, record) => (
                 <span style={{
                   color: value === 0 ? 'var(--color-red-60)' : 
-                        value < 20 ? 'var(--color-yellow-60)' : 
+                        (typeof value === 'number' ? value : 0) < 20 ? 'var(--color-yellow-60)' : 
                         'var(--color-text-primary)'
                 }}>
                   {value} units
@@ -408,7 +408,7 @@ const TablesDemo: React.FC = () => {
         <div style={{ maxWidth: '400px' }}>
           <Table<User>
             title="Recent Activity"
-            size="compact"
+
             columns={[
               { key: 'name', title: 'User', type: 'text' },
               { key: 'lastActive', title: 'Last Active', type: 'text' },

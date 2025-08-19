@@ -60,7 +60,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const ColorPickerDemo: React.FC = () => {
+const ColorPickerDemo = (): ComponentStory[] => {
   const [primaryColor, setPrimaryColor] = useState('#128297');
   const [accentColor, setAccentColor] = useState('#10B981');
   const [backgroundColor, setBackgroundColor] = useState('#FFFFFF');

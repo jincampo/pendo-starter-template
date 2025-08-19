@@ -48,7 +48,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const WizardDemo: React.FC = () => {
+const WizardDemo = (): ComponentStory[] => {
   const [showWizard, setShowWizard] = useState(false);
   const [showSimpleWizard, setShowSimpleWizard] = useState(false);
   const [showOnboardingWizard, setShowOnboardingWizard] = useState(false);

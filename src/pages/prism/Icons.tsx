@@ -277,27 +277,27 @@ const componentStories: ComponentStory[] = [
     component: (
       <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xl)', flexWrap: 'wrap' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-          <Icon name="CheckCircle" size="large" style={{ color: 'var(--color-green-70)' }} />
+          <Icon name="CheckCircle" size="large" color="var(--color-green-70)" />
           <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-gray-70)' }}>Success</span>
         </div>
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-          <Icon name="XCircle" size="large" style={{ color: 'var(--color-red-60)' }} />
+          <Icon name="XCircle" size="large" color="var(--color-red-60)" />
           <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-gray-70)' }}>Error</span>
         </div>
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-          <Icon name="AlertTriangle" size="large" style={{ color: 'var(--color-yellow-60)' }} />
+          <Icon name="AlertTriangle" size="large" color="var(--color-yellow-60)" />
           <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-gray-70)' }}>Warning</span>
         </div>
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-          <Icon name="Info" size="large" style={{ color: 'var(--color-blue-60)' }} />
+          <Icon name="Info" size="large" color="var(--color-blue-60)" />
           <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-gray-70)' }}>Info</span>
         </div>
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-          <Icon name="Settings" size="large" style={{ color: 'var(--color-teal-primary)' }} />
+          <Icon name="Settings" size="large" color="var(--color-teal-primary)" />
           <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-gray-70)' }}>Primary</span>
         </div>
       </div>
@@ -374,17 +374,18 @@ const componentStories: ComponentStory[] = [
         <div>
           <h4 style={{ fontSize: 'var(--font-size-sm)', margin: '0 0 var(--spacing-sm) 0', color: 'var(--color-gray-70)' }}>In Form Fields</h4>
           <div style={{ position: 'relative', maxWidth: '250px' }}>
-            <Icon 
-              name="Search" 
-              size="small" 
-              style={{ 
-                position: 'absolute', 
-                left: 'var(--spacing-sm)', 
-                top: '50%', 
-                transform: 'translateY(-50%)',
-                color: 'var(--color-gray-70)'
-              }} 
-            />
+            <div style={{
+              position: 'absolute', 
+              left: 'var(--spacing-sm)', 
+              top: '50%', 
+              transform: 'translateY(-50%)'
+            }}>
+              <Icon 
+                name="Search" 
+                size="small" 
+                color="var(--color-gray-70)"
+              />
+            </div>
             <input 
               placeholder="Search..." 
               style={{ 
@@ -441,15 +442,15 @@ const componentStories: ComponentStory[] = [
           <h4 style={{ fontSize: 'var(--font-size-sm)', margin: '0 0 var(--spacing-sm) 0', color: 'var(--color-gray-70)' }}>In Status Indicators</h4>
           <div style={{ display: 'flex', gap: 'var(--spacing-md)', flexWrap: 'wrap' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)', fontSize: 'var(--font-size-sm)' }}>
-              <Icon name="CheckCircle" size="small" style={{ color: 'var(--color-green-70)' }} />
+              <Icon name="CheckCircle" size="small" color="var(--color-green-70)" />
               Active
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)', fontSize: 'var(--font-size-sm)' }}>
-              <Icon name="Clock" size="small" style={{ color: 'var(--color-yellow-60)' }} />
+              <Icon name="Clock" size="small" color="var(--color-yellow-60)" />
               Pending
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)', fontSize: 'var(--font-size-sm)' }}>
-              <Icon name="XCircle" size="small" style={{ color: 'var(--color-red-60)' }} />
+              <Icon name="XCircle" size="small" color="var(--color-red-60)" />
               Failed
             </div>
           </div>

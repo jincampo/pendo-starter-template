@@ -47,7 +47,7 @@ const Breadcrumbs = React.forwardRef<HTMLElement, BreadcrumbsProps>(
         <ol className="pendo-breadcrumbs__list">
           {processedItems.map((item, index) => {
             const isLast = index === processedItems.length - 1
-            const isCurrent = item.current || isLast
+            const isCurrent = ('current' in item ? item.current : false) || isLast
             const isEllipsis = 'ellipsis' in item
 
             return (

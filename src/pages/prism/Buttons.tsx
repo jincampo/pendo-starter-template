@@ -143,25 +143,25 @@ const componentStories: ComponentStory[] = [
     name: 'Icon Only Buttons',
     description: 'Compact buttons with only icons',
     code: `<div className="button-group">
-  <Button size="icon" variant="primary">
+  <Button size="mini" variant="primary">
     <Icon name="Plus" size="small" />
   </Button>
-  <Button size="icon" variant="secondary">
+  <Button size="mini" variant="secondary">
     <Icon name="Edit" size="small" />
   </Button>
-  <Button size="icon" variant="tertiary">
+  <Button size="mini" variant="tertiary">
     <Icon name="Settings" size="small" />
   </Button>
 </div>`,
     component: (
       <div style={{ display: 'flex', gap: 'var(--spacing-sm)', alignItems: 'center' }}>
-        <Button size="icon" variant="primary">
+        <Button size="mini" variant="primary">
           <Icon name="Plus" size="small" />
         </Button>
-        <Button size="icon" variant="secondary">
+        <Button size="mini" variant="secondary">
           <Icon name="Edit" size="small" />
         </Button>
-        <Button size="icon" variant="tertiary">
+        <Button size="mini" variant="tertiary">
           <Icon name="Settings" size="small" />
         </Button>
       </div>

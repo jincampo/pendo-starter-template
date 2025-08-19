@@ -45,7 +45,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const TimePickerDemo: React.FC = () => {
+const TimePickerDemo = (): ComponentStory[] => {
   const [basicTime, setBasicTime] = useState('9:00 AM');
   const [meetingTime, setMeetingTime] = useState('');
   const [deadlineTime, setDeadlineTime] = useState('');

@@ -7,7 +7,7 @@ export interface DatePickerPreset {
   value: Date | [Date, Date] | Date[]
 }
 
-export interface DatePickerProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface DatePickerProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'defaultValue'> {
   value?: Date | Date[] | [Date, Date]
   defaultValue?: Date | Date[] | [Date, Date]
   placeholder?: string
@@ -338,7 +338,7 @@ const DatePicker = React.forwardRef<HTMLDivElement, DatePickerProps>(
                 <div className="pendo-date-picker__days">
                   {getDaysInMonth(viewDate).map((date, index) => {
                     const isCurrentMonth = date.getMonth() === viewDate.getMonth()
-                    const isSelected = value && isSameDay(date, value)
+                    const isSelected = value && isSameDay(date, Array.isArray(value) ? value[0] : value)
                     const isToday = isSameDay(date, new Date())
                     const isDisabled = isDateDisabled(date)
 

@@ -46,7 +46,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const DropdownsDemo: React.FC = () => {
+const DropdownsDemo = (): ComponentStory[] => {
   const [basicValue, setBasicValue] = useState('');
   const [statusValue, setStatusValue] = useState('');
   const [sortValue, setSortValue] = useState('');
@@ -62,7 +62,7 @@ const DropdownsDemo: React.FC = () => {
 <Dropdown 
   placeholder="Select a fruit"
   value={selected}
-  onValueChange={setSelected}
+  onChange={setSelected}
 >
   <DropdownOption value="apple">Apple</DropdownOption>
   <DropdownOption value="banana">Banana</DropdownOption>
@@ -74,7 +74,7 @@ const DropdownsDemo: React.FC = () => {
           <Dropdown 
             placeholder="Select a fruit"
             value={basicValue}
-            onValueChange={setBasicValue}
+            onChange={setBasicValue}
           >
             <DropdownOption value="apple">🍎 Apple</DropdownOption>
             <DropdownOption value="banana">🍌 Banana</DropdownOption>
@@ -98,7 +98,7 @@ const DropdownsDemo: React.FC = () => {
   placeholder="Select a fruit"
   error="Please select a fruit"
   value={value}
-  onValueChange={setValue}
+  onChange={setValue}
 >
   <DropdownOption value="apple">Apple</DropdownOption>
   <DropdownOption value="banana">Banana</DropdownOption>
@@ -126,7 +126,7 @@ const DropdownsDemo: React.FC = () => {
   placeholder="Select a status"
   prefixIcon={<Icon name="Circle" size="small" />}
   value={status}
-  onValueChange={setStatus}
+  onChange={setStatus}
 >
   <DropdownOption value="active">Active</DropdownOption>
   <DropdownOption value="inactive">Inactive</DropdownOption>
@@ -137,31 +137,31 @@ const DropdownsDemo: React.FC = () => {
         <div style={{ maxWidth: '250px' }}>
           <Dropdown
             placeholder="Select a status"
-            prefixIcon={<Icon name="Circle" size="small" style={{ color: 'var(--color-gray-50)' }} />}
+            prefixIcon={<Icon name="Circle" size="small" color="var(--color-gray-50)" />}
             value={statusValue}
-            onValueChange={setStatusValue}
+            onChange={setStatusValue}
           >
             <DropdownOption value="active">
               <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-                <Icon name="Circle" size="small" style={{ color: 'var(--color-green-70)' }} />
+                <Icon name="Circle" size="small" color="var(--color-green-70)" />
                 Active
               </div>
             </DropdownOption>
             <DropdownOption value="inactive">
               <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-                <Icon name="Circle" size="small" style={{ color: 'var(--color-gray-50)' }} />
+                <Icon name="Circle" size="small" color="var(--color-gray-50)" />
                 Inactive
               </div>
             </DropdownOption>
             <DropdownOption value="pending">
               <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-                <Icon name="Circle" size="small" style={{ color: 'var(--color-yellow-60)' }} />
+                <Icon name="Circle" size="small" color="var(--color-yellow-60)" />
                 Pending
               </div>
             </DropdownOption>
             <DropdownOption value="suspended">
               <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-xs)' }}>
-                <Icon name="Circle" size="small" style={{ color: 'var(--color-red-60)' }} />
+                <Icon name="Circle" size="small" color="var(--color-red-60)" />
                 Suspended
               </div>
             </DropdownOption>
@@ -177,7 +177,7 @@ const DropdownsDemo: React.FC = () => {
   triggerType="text"
   placeholder="Sort by"
   value={sortBy}
-  onValueChange={setSortBy}
+  onChange={setSortBy}
 >
   <DropdownOption value="name">Name (A-Z)</DropdownOption>
   <DropdownOption value="date">Date (Newest)</DropdownOption>
@@ -190,7 +190,7 @@ const DropdownsDemo: React.FC = () => {
             triggerType="text"
             placeholder="Sort by"
             value={sortValue}
-            onValueChange={setSortValue}
+            onChange={setSortValue}
           >
             <DropdownOption value="name">Name (A-Z)</DropdownOption>
             <DropdownOption value="date">Date (Newest)</DropdownOption>
@@ -263,7 +263,7 @@ const DropdownsDemo: React.FC = () => {
   label="Product Category"
   placeholder="Choose a category"
   value={category}
-  onValueChange={setCategory}
+  onChange={setCategory}
 >
   <DropdownOption value="electronics">
     📱 Electronics
@@ -290,7 +290,7 @@ const DropdownsDemo: React.FC = () => {
             label="Product Category"
             placeholder="Choose a category"
             value={categoryValue}
-            onValueChange={setCategoryValue}
+            onChange={setCategoryValue}
           >
             <DropdownOption value="electronics">
               📱 Electronics
@@ -433,7 +433,7 @@ const PropsTable = () => (
           <td className="border border-gray-300 px-4 py-2 text-sm">The visual style of the dropdown trigger</td>
         </tr>
         <tr>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">onValueChange</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">onChange</td>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">(value: string) =&gt; void</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">Callback when the selected value changes</td>

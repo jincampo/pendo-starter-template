@@ -41,7 +41,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const CheckboxesDemo: React.FC = () => {
+const CheckboxesDemo = (): ComponentStory[] => {
   const [basicChecked, setBasicChecked] = useState(false);
   const [indeterminateChecked, setIndeterminateChecked] = useState(false);
   const [indeterminateState, setIndeterminateState] = useState(true);

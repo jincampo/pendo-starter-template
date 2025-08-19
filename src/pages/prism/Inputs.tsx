@@ -41,7 +41,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const InputsDemo: React.FC = () => {
+const InputsDemo = (): ComponentStory[] => {
   const [basicValue, setBasicValue] = useState('');
   const [emailValue, setEmailValue] = useState('');
   const [multilineValue, setMultilineValue] = useState('');

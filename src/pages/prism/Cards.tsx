@@ -71,7 +71,7 @@ const componentStories: ComponentStory[] = [
 </Card>`,
     component: (
       <div style={{ maxWidth: '400px' }}>
-        <Card>
+        <Card title="Example Card">
           <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-lg)' }}>Custom Header</h3>
           <p style={{ margin: 0 }}>Cards don't always need a title prop. You can include custom headers and content as children.</p>
         </Card>
@@ -189,7 +189,7 @@ const componentStories: ComponentStory[] = [
             alignItems: 'center', 
             justifyContent: 'center' 
           }}>
-            <Icon name="Image" size="large" style={{ color: 'var(--color-gray-70)' }} />
+            <Icon name="Image" size="large" color="var(--color-gray-70)" />
           </div>
         </Card>
       </div>
@@ -254,7 +254,7 @@ const componentStories: ComponentStory[] = [
               alignItems: 'center', 
               justifyContent: 'center' 
             }}>
-              <Icon name="User" size="medium" style={{ color: 'var(--color-teal-70)' }} />
+              <Icon name="User" size="medium" color="var(--color-teal-70)" />
             </div>
             <div>
               <h4 style={{ margin: '0 0 var(--spacing-xs) 0', fontSize: 'var(--font-size-base)' }}>John Doe</h4>

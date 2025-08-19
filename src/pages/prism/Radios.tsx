@@ -42,7 +42,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const RadiosDemo: React.FC = () => {
+const RadiosDemo = (): ComponentStory[] => {
   const [selectedOption, setSelectedOption] = useState('option1');
   const [paymentMethod, setPaymentMethod] = useState('credit-card');
   const [theme, setTheme] = useState('light');

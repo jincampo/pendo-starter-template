@@ -395,7 +395,7 @@ const componentStories: ComponentStory[] = [
               content="Your API key is used to authenticate requests to our service. Keep it secure!"
               position="right"
             >
-              <Icon name="HelpCircle" size="small" style={{ color: 'var(--color-gray-70)' }} />
+              <Icon name="HelpCircle" size="small" color="var(--color-gray-70)" />
             </Tooltip>
           </div>
           <input 
@@ -418,7 +418,7 @@ const componentStories: ComponentStory[] = [
               content="We'll send real-time notifications to this URL when events occur"
               position="right"
             >
-              <Icon name="HelpCircle" size="small" style={{ color: 'var(--color-gray-70)' }} />
+              <Icon name="HelpCircle" size="small" color="var(--color-gray-70)" />
             </Tooltip>
           </div>
           <input 

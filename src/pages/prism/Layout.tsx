@@ -106,14 +106,6 @@ export default function Layout() {
       {currentPage !== 'home' && (
         <PrismPageLeftSide
           currentPage={currentPage}
-          currentColorSection={currentColorSection}
-          currentTypographySection={currentTypographySection}
-          isColorsExpanded={isColorsExpanded}
-          isTypographyExpanded={isTypographyExpanded}
-          handleColorClick={handleColorClick}
-          handleTypographyClick={handleTypographyClick}
-          handleColorSectionClick={handleColorSectionClick}
-          handleTypographySectionClick={handleTypographySectionClick}
         />
       )}
       <main className={location.pathname === '/' ? '' : 'main-content'}>

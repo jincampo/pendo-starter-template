@@ -48,7 +48,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const TabsDemo: React.FC = () => {
+const TabsDemo = (): ComponentStory[] => {
   const [activeTab, setActiveTab] = useState('overview');
 
   const componentStories: ComponentStory[] = [

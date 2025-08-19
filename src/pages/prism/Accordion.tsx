@@ -45,7 +45,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples  
-const AccordionDemo: React.FC = () => {
+const AccordionDemo = (): ComponentStory[] => {
   const basicItems = [
     {
       id: "item-1",

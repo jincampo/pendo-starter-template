@@ -45,7 +45,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const RadioButtonGroupDemo: React.FC = () => {
+const RadioButtonGroupDemo = (): ComponentStory[] => {
   const [basicValue, setBasicValue] = useState('option-2');
   const [planValue, setPlanValue] = useState('pro');
   const [sizeValue, setSizeValue] = useState('medium');
@@ -152,7 +152,7 @@ const options = [
               options={sizeOptions}
               value={sizeValue}
               onValueChange={setSizeValue}
-              size="medium"
+              size="regular"
             />
           </div>
           <div>

@@ -42,7 +42,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const AlertsDemo: React.FC = () => {
+const AlertsDemo = (): ComponentStory[] => {
   const [showDismissible, setShowDismissible] = useState(true);
 
   const componentStories: ComponentStory[] = [

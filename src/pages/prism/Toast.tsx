@@ -46,7 +46,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Toast demo component that uses the toast context
-const ToastDemo: React.FC = () => {
+const ToastDemo = (): ComponentStory[] => {
   const { addToast, removeAllToasts } = useToast();
 
   const componentStories: ComponentStory[] = [

@@ -42,7 +42,7 @@ const componentInfo: ComponentInfo = {
 };
 
 // Component stories with live examples
-const TogglesDemo: React.FC = () => {
+const TogglesDemo = (): ComponentStory[] => {
   const [basicToggle, setBasicToggle] = useState(false);
   const [notificationToggle, setNotificationToggle] = useState(true);
   const [darkModeToggle, setDarkModeToggle] = useState(false);
