@@ -1,0 +1,126 @@
+{
+  "page_name": "Breadcrumbs",
+  "page_type": "CANVAS",
+  "total_children": 17,
+  "components": [
+    {
+      "index": 1,
+      "name": "Rectangle 11",
+      "type": "RECTANGLE",
+      "id": "13649:3005",
+      "children_count": 0
+    },
+    {
+      "index": 2,
+      "name": ".\ud83c\udf08 Contribution Checklist",
+      "type": "INSTANCE",
+      "id": "11828:28868",
+      "children_count": 2
+    },
+    {
+      "index": 3,
+      "name": ".Recents",
+      "type": "COMPONENT_SET",
+      "id": "12808:2265",
+      "children_count": 3
+    },
+    {
+      "index": 4,
+      "name": "Atoms",
+      "type": "SECTION",
+      "id": "12828:9654",
+      "children_count": 2
+    },
+    {
+      "index": 5,
+      "name": "Annotations",
+      "type": "INSTANCE",
+      "id": "12828:11206",
+      "children_count": 1
+    },
+    {
+      "index": 6,
+      "name": "Vector 7",
+      "type": "VECTOR",
+      "id": "12828:11240",
+      "children_count": 0
+    },
+    {
+      "index": 7,
+      "name": "Documentation",
+      "type": "SECTION",
+      "id": "12828:11242",
+      "children_count": 19
+    },
+    {
+      "index": 8,
+      "name": "Molecules - Main component",
+      "type": "SECTION",
+      "id": "12836:12043",
+      "children_count": 22
+    },
+    {
+      "index": 9,
+      "name": ".ac",
+      "type": "INSTANCE",
+      "id": "13877:2366",
+      "children_count": 1
+    },
+    {
+      "index": 10,
+      "name": ".ac",
+      "type": "COMPONENT",
+      "id": "12836:12044",
+      "children_count": 1
+    },
+    {
+      "index": 11,
+      "name": "Sandbox",
+      "type": "SECTION",
+      "id": "12836:12060",
+      "children_count": 5
+    },
+    {
+      "index": 12,
+      "name": "Vector 11",
+      "type": "VECTOR",
+      "id": "12845:12395",
+      "children_count": 0
+    },
+    {
+      "index": 13,
+      "name": "Responsive use cases",
+      "type": "SECTION",
+      "id": "12855:42022",
+      "children_count": 7
+    },
+    {
+      "index": 14,
+      "name": "Line 255",
+      "type": "LINE",
+      "id": "12930:1824",
+      "children_count": 0
+    },
+    {
+      "index": 15,
+      "name": "Line 256",
+      "type": "LINE",
+      "id": "13622:2724",
+      "children_count": 0
+    },
+    {
+      "index": 16,
+      "name": "Other use cases",
+      "type": "SECTION",
+      "id": "13622:3003",
+      "children_count": 2
+    },
+    {
+      "index": 17,
+      "name": "Vector 12",
+      "type": "VECTOR",
+      "id": "13877:2369",
+      "children_count": 0
+    }
+  ]
+}

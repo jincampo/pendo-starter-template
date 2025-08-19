@@ -1,0 +1,358 @@
+/* Component Showcase Styling */
+
+/* Tabs */
+.pendo-component-tabs {
+  margin-bottom: var(--spacing-xl, 24px);
+}
+
+.pendo-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-gray-40, #dadce5);
+  margin-bottom: var(--spacing-xl, 24px);
+}
+
+.pendo-tab {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 4px);
+  padding: var(--spacing-md, 16px) var(--spacing-lg, 20px);
+  border: none;
+  background: transparent;
+  color: var(--color-gray-70, #6a6c75);
+  font-size: var(--font-size-sm, 14px);
+  font-weight: var(--font-weight-medium, 500);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 150ms ease;
+}
+
+.pendo-tab:hover {
+  color: var(--color-gray-100, #2a2c35);
+  background-color: var(--color-gray-10, #f8f8f9);
+}
+
+.pendo-tab--active {
+  color: var(--color-teal-70, #028cc2);
+  border-bottom-color: var(--color-teal-70, #028cc2);
+  background-color: transparent;
+}
+
+.pendo-tab:focus-visible {
+  outline: 2px solid var(--color-teal-70, #028cc2);
+  outline-offset: 1px;
+}
+
+.pendo-tab-content {
+  min-height: 400px;
+}
+
+/* Component Header */
+.pendo-component-showcase {
+  max-width: 1200px;
+}
+
+.pendo-component-header {
+  margin-bottom: var(--spacing-xl, 24px);
+  padding-bottom: var(--spacing-lg, 20px);
+  border-bottom: 1px solid var(--color-gray-40, #dadce5);
+}
+
+.pendo-component-header h1 {
+  font-family: var(--font-family-sora, 'Sora', sans-serif);
+  font-size: var(--font-size-3xl, 30px);
+  font-weight: var(--font-weight-bold, 700);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-md, 16px) 0;
+}
+
+.pendo-component-description {
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-gray-70, #6a6c75);
+  line-height: 1.5;
+  margin: var(--spacing-md, 16px) 0 0 0;
+}
+
+.pendo-component-meta {
+  display: flex;
+  gap: var(--spacing-sm, 8px);
+  align-items: center;
+}
+
+.pendo-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs, 4px) var(--spacing-sm, 8px);
+  background-color: var(--color-gray-20, #f4f4f7);
+  color: var(--color-gray-70, #6a6c75);
+  font-size: var(--font-size-xs, 12px);
+  font-weight: var(--font-weight-medium, 500);
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pendo-tag--implemented {
+  background-color: var(--color-green-10, #e3f7ed);
+  color: var(--color-green-70, #00aa62);
+}
+
+/* Usage Content */
+.pendo-usage-content {
+  font-size: var(--font-size-sm, 14px);
+  line-height: 1.75;
+}
+
+.pendo-usage-section {
+  margin-bottom: var(--spacing-2xl, 32px);
+}
+
+.pendo-usage-section h3 {
+  font-size: var(--font-size-lg, 18px);
+  font-weight: var(--font-weight-semibold, 600);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-md, 16px) 0;
+}
+
+.pendo-usage-section p {
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-md, 16px) 0;
+}
+
+.pendo-usage-list {
+  margin: 0;
+  padding-left: var(--spacing-lg, 20px);
+  color: var(--color-gray-100, #2a2c35);
+}
+
+.pendo-usage-list li {
+  margin-bottom: var(--spacing-xs, 4px);
+}
+
+.pendo-anatomy-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm, 8px);
+}
+
+.pendo-anatomy-item {
+  padding: var(--spacing-sm, 8px);
+  background-color: var(--color-gray-10, #f8f8f9);
+  border-radius: 3px;
+  font-size: var(--font-size-sm, 14px);
+}
+
+.pendo-anatomy-item strong {
+  color: var(--color-teal-70, #028cc2);
+  font-weight: var(--font-weight-semibold, 600);
+}
+
+.pendo-dos-donts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg, 20px);
+  margin-top: var(--spacing-md, 16px);
+}
+
+.pendo-dos h4,
+.pendo-donts h4 {
+  font-size: var(--font-size-base, 16px);
+  font-weight: var(--font-weight-semibold, 600);
+  margin: 0 0 var(--spacing-sm, 8px) 0;
+}
+
+.pendo-dos h4 {
+  color: var(--color-green-70, #00aa62);
+}
+
+.pendo-donts h4 {
+  color: var(--color-red-60, #dc2626);
+}
+
+.pendo-dos ul,
+.pendo-donts ul {
+  margin: 0;
+  padding-left: var(--spacing-lg, 20px);
+}
+
+.pendo-dos ul li,
+.pendo-donts ul li {
+  margin-bottom: var(--spacing-xs, 4px);
+}
+
+/* Stories Content */
+.pendo-stories-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl, 48px);
+}
+
+.pendo-story {
+  border: 1px solid var(--color-gray-40, #dadce5);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--color-gray-0, #ffffff);
+}
+
+.pendo-story-header {
+  padding: var(--spacing-lg, 20px);
+  border-bottom: 1px solid var(--color-gray-40, #dadce5);
+  background-color: var(--color-gray-10, #f8f8f9);
+}
+
+.pendo-story-header h3 {
+  font-size: var(--font-size-lg, 18px);
+  font-weight: var(--font-weight-semibold, 600);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-xs, 4px) 0;
+}
+
+.pendo-story-header p {
+  color: var(--color-gray-70, #6a6c75);
+  font-size: var(--font-size-sm, 14px);
+  margin: 0 0 var(--spacing-md, 16px) 0;
+}
+
+.pendo-code-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 4px);
+  padding: var(--spacing-xs, 4px) var(--spacing-sm, 8px);
+  border: 1px solid var(--color-gray-50, #babcc5);
+  background-color: var(--color-gray-0, #ffffff);
+  color: var(--color-gray-70, #6a6c75);
+  font-size: var(--font-size-xs, 12px);
+  font-weight: var(--font-weight-medium, 500);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.pendo-code-toggle:hover {
+  background-color: var(--color-gray-10, #f8f8f9);
+  color: var(--color-gray-100, #2a2c35);
+}
+
+.pendo-code-toggle:focus-visible {
+  outline: 2px solid var(--color-teal-70, #028cc2);
+  outline-offset: 1px;
+}
+
+.pendo-story-example {
+  padding: var(--spacing-2xl, 32px);
+  background-color: var(--color-gray-0, #ffffff);
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pendo-story-code {
+  border-top: 1px solid var(--color-gray-40, #dadce5);
+  background-color: #f8f9fa;
+}
+
+.pendo-story-code pre {
+  margin: 0;
+  padding: var(--spacing-lg, 20px);
+  overflow-x: auto;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: var(--font-size-xs, 12px);
+  line-height: 1.75;
+  color: var(--color-gray-100, #2a2c35);
+}
+
+.pendo-story-code code {
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Code Content */
+.pendo-code-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl, 24px);
+}
+
+.pendo-code-content h3 {
+  font-size: var(--font-size-lg, 18px);
+  font-weight: var(--font-weight-semibold, 600);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-lg, 20px) 0;
+}
+
+.pendo-code-example {
+  border: 1px solid var(--color-gray-40, #dadce5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pendo-code-example h4 {
+  font-size: var(--font-size-base, 16px);
+  font-weight: var(--font-weight-semibold, 600);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0;
+  padding: var(--spacing-md, 16px) var(--spacing-lg, 20px);
+  background-color: var(--color-gray-10, #f8f8f9);
+  border-bottom: 1px solid var(--color-gray-40, #dadce5);
+}
+
+.pendo-code-example pre {
+  margin: 0;
+  padding: var(--spacing-lg, 20px);
+  background-color: #f8f9fa;
+  overflow-x: auto;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: var(--font-size-xs, 12px);
+  line-height: 1.75;
+  color: var(--color-gray-100, #2a2c35);
+}
+
+.pendo-code-example code {
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.pendo-props-section {
+  margin-top: var(--spacing-2xl, 32px);
+}
+
+.pendo-props-section h3 {
+  font-size: var(--font-size-lg, 18px);
+  font-weight: var(--font-weight-semibold, 600);
+  color: var(--color-gray-100, #2a2c35);
+  margin: 0 0 var(--spacing-lg, 20px) 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pendo-dos-donts {
+    grid-template-columns: 1fr;
+  }
+  
+  .pendo-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .pendo-tab {
+    flex-shrink: 0;
+  }
+  
+  .pendo-story-example {
+    padding: var(--spacing-lg, 20px);
+  }
+
+  .pendo-component-header h1 {
+    font-size: var(--font-size-2xl, 24px);
+  }
+}
+
+/* Focus management */
+:focus-visible {
+  outline: 2px solid var(--color-teal-70, #028cc2);
+  outline-offset: 1px;
+}

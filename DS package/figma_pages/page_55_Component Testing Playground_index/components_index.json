@@ -1,0 +1,98 @@
+{
+  "page_name": "Component Testing Playground",
+  "page_type": "CANVAS",
+  "total_children": 13,
+  "components": [
+    {
+      "index": 1,
+      "name": "Document Heading",
+      "type": "INSTANCE",
+      "id": "1647:56420",
+      "children_count": 1
+    },
+    {
+      "index": 2,
+      "name": "Brian",
+      "type": "SECTION",
+      "id": "9643:2732",
+      "children_count": 4
+    },
+    {
+      "index": 3,
+      "name": "\ud83c\udf08 Dropdown / Multi-Select",
+      "type": "INSTANCE",
+      "id": "10059:8775",
+      "children_count": 1
+    },
+    {
+      "index": 4,
+      "name": "\ud83c\udf08 Date Picker Dropdown",
+      "type": "INSTANCE",
+      "id": "10059:12452",
+      "children_count": 2
+    },
+    {
+      "index": 5,
+      "name": "\ud83c\udf08 Dropdown / Single Select",
+      "type": "INSTANCE",
+      "id": "10059:13145",
+      "children_count": 1
+    },
+    {
+      "index": 6,
+      "name": "\ud83c\udf08 Checkbox",
+      "type": "INSTANCE",
+      "id": "10072:27656",
+      "children_count": 2
+    },
+    {
+      "index": 7,
+      "name": "\ud83c\udf08 Modal",
+      "type": "INSTANCE",
+      "id": "11773:2660",
+      "children_count": 3
+    },
+    {
+      "index": 8,
+      "name": "\ud83c\udf08 Modal",
+      "type": "INSTANCE",
+      "id": "11773:3959",
+      "children_count": 3
+    },
+    {
+      "index": 9,
+      "name": "\ud83c\udf08 Modal",
+      "type": "INSTANCE",
+      "id": "11773:2701",
+      "children_count": 3
+    },
+    {
+      "index": 10,
+      "name": "Padding: 16px 24px",
+      "type": "TEXT",
+      "id": "11773:4000",
+      "children_count": 0
+    },
+    {
+      "index": 11,
+      "name": "Padding: 16px",
+      "type": "TEXT",
+      "id": "11773:4001",
+      "children_count": 0
+    },
+    {
+      "index": 12,
+      "name": "Padding: 16px 16px 24px 16px",
+      "type": "TEXT",
+      "id": "11773:4002",
+      "children_count": 0
+    },
+    {
+      "index": 13,
+      "name": "\ud83c\udf08 Breadcrumbs",
+      "type": "INSTANCE",
+      "id": "13071:4589",
+      "children_count": 7
+    }
+  ]
+}

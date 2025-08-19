@@ -1,0 +1,4 @@
+- Prism is the component library with styles used by most Pendo applications. When needing a component, look to see if a Prism component is defined first.
+- When adding a component, put it in the Prism folder (/components/prism/ui) only if the user says it is a prism component. Otherwise put it in /components/ui
+- Do not update Prism components and styles unless the user explicitly says so. Those components are meant to represent an immutable library
+- Always reference prism components using the symbol reference

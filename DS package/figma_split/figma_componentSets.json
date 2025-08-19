@@ -1,0 +1,1762 @@
+{
+  "componentSets": {
+    "553:8256": {
+      "key": "e7ccfe7c02f42a99f1f9102c6906a33743125d1b",
+      "name": "🌈 Button",
+      "description": "Button - \n\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\n\nComponent includes:\nStandard and Split types\nPrimary, Secondary Tertiary, Destructive.\n\nEnable icons, loaders and more ...",
+      "remote": false
+    },
+    "1656:69994": {
+      "key": "0baffb48b15f51e8b371dee29463f395d2254586",
+      "name": "Operators/plus",
+      "description": "",
+      "remote": true
+    },
+    "532:8250": {
+      "key": "df39da773f2221062ea714f70233fceab35d8dfa",
+      "name": "SmallTags",
+      "description": "",
+      "remote": true
+    },
+    "1656:92873": {
+      "key": "1aefc489484a3236a9e11b860b58546e0338c006",
+      "name": "Arrows/chevron-right",
+      "description": "",
+      "remote": true
+    },
+    "1656:95334": {
+      "key": "66f6c593f47af02a913c62f426d9087d8fbac4b8",
+      "name": "Arrows/chevron-down",
+      "description": "",
+      "remote": true
+    },
+    "820:28303": {
+      "key": "b2bf5642a7fdbfd0ecb622a8cdbd100707d68ad1",
+      "name": "🌈 Alert",
+      "description": "Banner Alert\nUse a banner alert to notify a user about high-priority or time-sensitive changes in the system.\n\n\nUse Toast Messages instead to notify users of less critical information - Eg \"Successfully Added 2 items\"",
+      "documentationLinks": []
+    },
+    "14018:38845": {
+      "key": "d36b2be44216870c36841bf977f014709a118f94",
+      "name": "Alerts-and-feedback/info-solid",
+      "description": "",
+      "remote": true
+    },
+    "7367:21135": {
+      "key": "7bc10999ec44eb3c0f593ad6350ddec0f03edaa8",
+      "name": "🌈 Button",
+      "description": "Button -\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\nComponent includes:Standard and Split typesPrimary, Secondary Tertiary, Destructive.\nEnable icons, loaders and more ...",
+      "documentationLinks": [
+        {
+          "uri": "https://pendo-io.atlassian.net/wiki/spaces/PROD/pages/2831745340/Buttons"
+        }
+      ]
+    },
+    "12673:31218": {
+      "key": "0baffb48b15f51e8b371dee29463f395d2254586",
+      "name": "Operators/plus",
+      "description": "",
+      "remote": true
+    },
+    "14018:38196": {
+      "key": "1aefc489484a3236a9e11b860b58546e0338c006",
+      "name": "Arrows/chevron-right",
+      "description": "",
+      "remote": true
+    },
+    "14018:32119": {
+      "key": "66f6c593f47af02a913c62f426d9087d8fbac4b8",
+      "name": "Arrows/chevron-down",
+      "description": "",
+      "remote": true
+    },
+    "14018:35588": {
+      "key": "1729b61df98de307cedb8312b7b315b8108e0abd",
+      "name": "Operators/x",
+      "description": "",
+      "remote": true
+    },
+    "14018:35598": {
+      "key": "ed50ba7c551b812eb1801f0ac3e434b17161552f",
+      "name": "Alerts-and-feedback/alert-circle-solid",
+      "description": "",
+      "remote": true
+    },
+    "14018:38818": {
+      "key": "c5ea2c69bfa34b7f9e2664cd556ead97d4c1d3bf",
+      "name": "Alerts-and-feedback/minus-circle-solid",
+      "description": "",
+      "remote": true
+    },
+    "14018:38828": {
+      "key": "8e61546f756e818845f0eadfbb3e671cb9fc256f",
+      "name": "Alerts-and-feedback/check-circle-2-solid",
+      "description": "",
+      "remote": true
+    },
+    "1126:18075": {
+      "key": "a6c74d7545d2fff7d0456ae92fc952449b6ac173",
+      "name": ".🌈 Contribution Checklist",
+      "description": "",
+      "remote": false
+    },
+    "595:8210": {
+      "key": "a47017d39ec49b36819cdc55a8cf3fce94c9ce21",
+      "name": "Design Checklist Status",
+      "description": "",
+      "documentationLinks": []
+    },
+    "595:8200": {
+      "key": "550008a4f1e61e4e2eeb6ad3b274a3817954776b",
+      "name": "Design Checklist Item",
+      "description": "",
+      "documentationLinks": []
+    },
+    "595:8193": {
+      "key": "e060a2a26d25c05749e213e09519931691f6da88",
+      "name": "Design Check",
+      "description": "",
+      "documentationLinks": []
+    },
+    "12808:2265": {
+      "key": "a84d4a38dd89241b97f1ac238c4dff749e3a30cc",
+      "name": ".Recents",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:32139": {
+      "key": "5ff4d5f2a631642f314af2dd5a8ce6c4ebd49d5a",
+      "name": "Users/user",
+      "description": "",
+      "remote": true
+    },
+    "12808:1952": {
+      "key": "7ae1a166cc3f4ea31fc8e302126501432c7068b2",
+      "name": "Arrows/chevron-up",
+      "description": "",
+      "remote": true
+    },
+    "9777:35475": {
+      "key": "81b28a0b704220794e6cbb789af911fc6270a6cd",
+      "name": ".Breadcrumb elements",
+      "description": "",
+      "documentationLinks": []
+    },
+    "13877:2414": {
+      "key": "f229b94433035c85ce0bdcfa6ebceae2890124f3",
+      "name": "General/home",
+      "description": "",
+      "remote": true
+    },
+    "12808:1986": {
+      "key": "a4f55d415bf9b65bd355574711aba25fb7b36e86",
+      "name": "Arrows/arrow-left",
+      "description": "",
+      "remote": true
+    },
+    "12828:10554": {
+      "key": "022d68ee86d659aad63730a3420927faf2388073",
+      "name": "Breadcrumb separators",
+      "description": "",
+      "documentationLinks": []
+    },
+    "12828:11175": {
+      "key": "051b82c712963ce4da5af264597135ae84d3c825",
+      "name": "Annotations",
+      "description": "",
+      "remote": true
+    },
+    "9403:563": {
+      "key": "e4d6d8c3b4b4793e008059a0a2ec303968674119",
+      "name": "License Filter Drop Down",
+      "description": "",
+      "remote": true
+    },
+    "9403:603": {
+      "key": "ceeecd1eb549f540b6cc0450860205ee1e1ce11a",
+      "name": "Menu Item",
+      "description": "",
+      "remote": true
+    },
+    "4207:109754": {
+      "key": "92dfcd86b8f27e6b294209ab5a35489e9d622641",
+      "name": "🌈 Tags",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3920:105361": {
+      "key": "b0b7b181a9827b0f92ac95937891199ec1aeb8e0",
+      "name": "Users/user-check",
+      "description": "",
+      "remote": true
+    },
+    "2736:64641": {
+      "key": "0ba79e45288fab1b15a83cb41e9b8cc5194a3bae",
+      "name": "Users/users",
+      "description": "",
+      "remote": true
+    },
+    "3449:88287": {
+      "key": "d58627551d7c279298ecb737a042da3bc4e8c954",
+      "name": "Media and devices/monitor",
+      "description": "",
+      "remote": true
+    },
+    "790:16771": {
+      "key": "08dc2e10b5aa3da3cfa87153562424fd05e61419",
+      "name": ".Button Group Variants",
+      "description": "Button Group\n\nA button group bunches toggleable actions together.\nButton groups act like radios.\n\nWe recommend using them when there are less than 4 actions for text button groups.\n\nWhen using as an icon only button group use as many as necessary and always pair with a tootip text on hover.",
+      "documentationLinks": []
+    },
+    "791:16955": {
+      "key": "15b0b24c50dbd8a6682d34bb0a81b86350cb9260",
+      "name": "image",
+      "description": "",
+      "remote": true
+    },
+    "7246:19163": {
+      "key": "0a07c62eb8c3cf1b13684c48c27c6ec4b6fc731e",
+      "name": "Operators/check-circle",
+      "description": "",
+      "remote": true
+    },
+    "3875:105683": {
+      "key": "d1754779b8ecacbf1575397530a5ad5c6edf70d3",
+      "name": "General/clock",
+      "description": "",
+      "remote": true
+    },
+    "2578:64677": {
+      "key": "7c1168cbb6bc84df15465938820540f600158609",
+      "name": "Arrows/arrow-down",
+      "description": "",
+      "remote": true
+    },
+    "9403:4312": {
+      "key": "3144b393579ae2e16ad69dfa6fb9c168a106e314",
+      "name": "🌈 Breadcrumbs",
+      "description": "",
+      "documentationLinks": []
+    },
+    "9403:2465": {
+      "key": "5d705d1a18b0fcc7436787db556b573b7f5e91b1",
+      "name": "Files/file",
+      "description": "",
+      "remote": true
+    },
+    "9403:2478": {
+      "key": "4de54f066a8bc89dca43f8bb92ae9448d6948ca2",
+      "name": "magenta",
+      "description": "",
+      "remote": true
+    },
+    "3975:112638": {
+      "key": "f98b9a0fcadccf981af10d436bf20d711c2300aa",
+      "name": "Media and devices/play-circle",
+      "description": "",
+      "remote": true
+    },
+    "12810:5931": {
+      "key": "eeb2bf53ae76cafbe1c47f6403d4be7dba5f5e2d",
+      "name": "🌈 Headers",
+      "description": "",
+      "remote": true
+    },
+    "12810:5877": {
+      "key": "616c5c7fc80c16f481767f9d93130295e8daeb04",
+      "name": ".Header title group base component",
+      "description": "",
+      "remote": true
+    },
+    "12810:4374": {
+      "key": "7bc10999ec44eb3c0f593ad6350ddec0f03edaa8",
+      "name": "🌈 Button",
+      "description": "Button -\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\nComponent includes:Standard and Split typesPrimary, Secondary Tertiary, Destructive.\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "3449:88326": {
+      "key": "3e6ac5830a070141e6f0a848246885b634bd4e43",
+      "name": "Weather/star",
+      "description": "",
+      "remote": true
+    },
+    "8715:21662": {
+      "key": "7ed36b72937dc5cc203d8c272bf2a89717c3e55a",
+      "name": "General/more-horizontal",
+      "description": "",
+      "remote": true
+    },
+    "8715:21675": {
+      "key": "17deebada2a4858422574e654715de475e3d7c8e",
+      "name": "Arrows/external-link",
+      "description": "",
+      "remote": true
+    },
+    "8715:21606": {
+      "key": "f4ed6930f1e10cc0f9b0f5d062e60bd27d0a598e",
+      "name": "Editable content widget",
+      "description": "",
+      "remote": true
+    },
+    "1652:62978": {
+      "key": "4720adc28a78bcb6e6c69db6243829ed7f8acf7b",
+      "name": "🌈 Input (Text)",
+      "description": "",
+      "remote": false
+    },
+    "1994:62278": {
+      "key": "258f63b51bee25143ce5ccee654680865eadfdb0",
+      "name": "🌈 Dropdown Option Item",
+      "description": "Dropdown Option Item\n\nFor use in Dropdown Option containers.",
+      "documentationLinks": []
+    },
+    "1296:18090": {
+      "key": "54366d7c19e050ca3b8b10c4ea396149e8ab828f",
+      "name": "🌈 Checkbox",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:32109": {
+      "key": "325d0acd73b6afe53a35f3d903cbc4654b29c70c",
+      "name": "General/lock",
+      "description": "",
+      "remote": true
+    },
+    "1994:62164": {
+      "key": "39aef1e4968ea68911fc5ad4c0e55f6b31464f63",
+      "name": "🌈 Guide Status Indicator (Dots)",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:32020": {
+      "key": "765dcfae0291e2dc60fb0539e66a39762adb5fec",
+      "name": "Editor/edit",
+      "description": "",
+      "remote": true
+    },
+    "14018:32030": {
+      "key": "781fd087e9106d327fb31dd50d1f734e05c61dca",
+      "name": "Editor/copy",
+      "description": "",
+      "remote": true
+    },
+    "14018:32056": {
+      "key": "65c9db7c9fc7afdce754b22ffbbb3c1257ff79b9",
+      "name": "Editor/trash-2",
+      "description": "",
+      "remote": true
+    },
+    "13622:1822": {
+      "key": "65b286701a29c724f66044c06f9d210b57201306",
+      "name": "Alerts-and-feedback/bell",
+      "description": "",
+      "remote": true
+    },
+    "8715:24124": {
+      "key": "81f9983736293d241f5536ce5f225b0d999f352d",
+      "name": "Settings",
+      "description": "",
+      "remote": true
+    },
+    "8715:21498": {
+      "key": "a4f55d415bf9b65bd355574711aba25fb7b36e86",
+      "name": "Arrows/arrow-left",
+      "description": "",
+      "remote": true
+    },
+    "8715:23341": {
+      "key": "5bda640d7380247c5290d039ee953032b5752f2d",
+      "name": "🌈 Vertical Divider",
+      "description": "",
+      "remote": true
+    },
+    "8715:21508": {
+      "key": "004e933576b0a89a4d8df0873ba449b59bf7ef3f",
+      "name": "🌈 Dropdown / Text Trigger",
+      "description": "Dropdown: Text Trigger (Also called Data Measure in Storybook)",
+      "remote": true
+    },
+    "2736:64593": {
+      "key": "5ff4d5f2a631642f314af2dd5a8ce6c4ebd49d5a",
+      "name": "Users/user",
+      "description": "",
+      "remote": true
+    },
+    "3975:112248": {
+      "key": "249d4fed877c9971750468d1d9dc1f6cf264a6ae",
+      "name": "🌈 Card",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3975:112369": {
+      "key": "76bae94b6e7b2147c1853c6aaf62ccd32c3bbe80",
+      "name": ".🌈 Presets / Collapse Action",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38091": {
+      "key": "f98b9a0fcadccf981af10d436bf20d711c2300aa",
+      "name": "Media and devices/play-circle",
+      "description": "",
+      "remote": true
+    },
+    "1994:61896": {
+      "key": "f11d5d6b5b175cc02d062a2ce80ee606a986f447",
+      "name": "🌈 Dropdown / Guide Status",
+      "description": "Dropdown: Guides Status Trigger",
+      "remote": false
+    },
+    "1566:51951": {
+      "key": "3602cb96ccb5ddbcc3d78ba89ba5d6179b0c10ab",
+      "name": "🌈 Chooser Grid",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3920:105382": {
+      "key": "d70177c4219ebb45d342019cbd1c05544f229966",
+      "name": "🌈 Tags",
+      "description": "",
+      "remote": true
+    },
+    "2736:64573": {
+      "key": "1729b61df98de307cedb8312b7b315b8108e0abd",
+      "name": "Operators/x",
+      "description": "",
+      "remote": true
+    },
+    "6675:122539": {
+      "key": "e9a1756c9b811681aeede232f3a23dde5ecc41da",
+      "name": "🌈 Collapse",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1673:62524": {
+      "key": "7ae1a166cc3f4ea31fc8e302126501432c7068b2",
+      "name": "Arrows/chevron-up",
+      "description": "",
+      "remote": true
+    },
+    "14018:38339": {
+      "key": "1365a6ae14bffa72a7d7a6f7b89e643b5e00124d",
+      "name": "Operators/minus-square",
+      "description": "",
+      "remote": true
+    },
+    "14018:38349": {
+      "key": "b870f9e69c17614da2f70c73405d328ae76d2b0a",
+      "name": "Operators/plus-square",
+      "description": "",
+      "remote": true
+    },
+    "2381:61346": {
+      "key": "5bda640d7380247c5290d039ee953032b5752f2d",
+      "name": "🌈 Vertical Divider",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2321:61334": {
+      "key": "e95964d37ae575386f389914d0329fa0bab3c2dc",
+      "name": "🌈 Horizontal Divider",
+      "description": "",
+      "documentationLinks": []
+    },
+    "18612:7218": {
+      "key": "508a2655f6068dd5a54124ed5231070765e1af1d",
+      "name": "🌈 Side drawer",
+      "description": "",
+      "documentationLinks": []
+    },
+    "18612:5093": {
+      "key": "31ceb51b9833b33bbdca9b35323cc1421ce41eb6",
+      "name": "Button actions",
+      "description": "",
+      "remote": true
+    },
+    "18612:3575": {
+      "key": "7bc10999ec44eb3c0f593ad6350ddec0f03edaa8",
+      "name": "🌈 Button",
+      "description": "Button -\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\nComponent includes:Standard and Split typesPrimary, Secondary Tertiary, Destructive.\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "18612:5086": {
+      "key": "a92fb5cb13a5fa653abaf555e9bf101304f6b7bd",
+      "name": "Weather/zap",
+      "description": "",
+      "remote": true
+    },
+    "18612:5073": {
+      "key": "0e03f88f984cf9fbf439e04463f51bdf97315140",
+      "name": "Alerts-and-feedback/info",
+      "description": "",
+      "remote": true
+    },
+    "18612:5122": {
+      "key": "39179908a8f519b04fdc61f179f63843fd9350aa",
+      "name": "Blade Tab",
+      "description": "",
+      "remote": true
+    },
+    "18612:5509": {
+      "key": "89dfd6e7220404bf184005a62366d07265175e4f",
+      "name": "Blade Tab",
+      "description": "",
+      "remote": true
+    },
+    "18612:5541": {
+      "key": "5d4f6b9a003809424f3a44d36615124cc293560a",
+      "name": "Quick Metrics",
+      "description": "",
+      "remote": true
+    },
+    "18612:5525": {
+      "key": "86acb4458308f09847fe5059effbb4f507b24167",
+      "name": "Blade / Quick Metrics",
+      "description": "",
+      "remote": true
+    },
+    "18612:5550": {
+      "key": "35aeb9425d53ca6f8d04cc5935e4ddb4130851d0",
+      "name": "Description",
+      "description": "",
+      "remote": true
+    },
+    "18612:7100": {
+      "key": "42e1a64ae3cb1654e2fab4a81251eb35612f7e31",
+      "name": "Communication/message-square",
+      "description": "",
+      "remote": true
+    },
+    "18612:7113": {
+      "key": "65c9db7c9fc7afdce754b22ffbbb3c1257ff79b9",
+      "name": "Editor/trash-2",
+      "description": "",
+      "remote": true
+    },
+    "18612:5560": {
+      "key": "7bc10999ec44eb3c0f593ad6350ddec0f03edaa8",
+      "name": "🌈 Button",
+      "description": "Button -\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\nComponent includes:Standard and Split typesPrimary, Secondary Tertiary, Destructive.\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "14018:35611": {
+      "key": "7ed36b72937dc5cc203d8c272bf2a89717c3e55a",
+      "name": "General/more-horizontal",
+      "description": "",
+      "remote": true
+    },
+    "3507:83652": {
+      "key": "db3c8ad5a24ca56ad3531313a41552dc330a6991",
+      "name": ".DEPRECATED 🌈 Drawer / Blade",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3662:106089": {
+      "key": "c7a707a1d6636ffcb21e4a642b3149a38be09e0b",
+      "name": "🌈 Drawer / Full screen",
+      "description": "",
+      "documentationLinks": []
+    },
+    "13558:4088": {
+      "key": "4c3807ab7be23805d9f946cbaf45e6e145cdebc9",
+      "name": "Arrows/chevron-left",
+      "description": "",
+      "remote": true
+    },
+    "13695:1152": {
+      "key": "447b7bb303552ba3a7f06be58e5f72b1b066aba6",
+      "name": "🌈 Icon Button",
+      "description": "",
+      "documentationLinks": []
+    },
+    "13695:1128": {
+      "key": "615092ef760a05a9fe70ed3f911120a0bd93e93c",
+      "name": "Arrows/download",
+      "description": "",
+      "remote": true
+    },
+    "15235:750": {
+      "key": "3c7eaccf37f88f53ee79a977d4ac9639b1a55de8",
+      "name": "🌈 Icon Button Interaction",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38101": {
+      "key": "3e6ac5830a070141e6f0a848246885b634bd4e43",
+      "name": "Weather/star",
+      "description": "",
+      "remote": true
+    },
+    "1655:64661": {
+      "key": "cb98fcc38262a3cb0a860ea2775826101f0895d2",
+      "name": "🌈 Dropdown / Standard Trigger",
+      "description": "🌈 Standard Dropdown Trigger",
+      "documentationLinks": []
+    },
+    "14018:32126": {
+      "key": "0e03f88f984cf9fbf439e04463f51bdf97315140",
+      "name": "Alerts-and-feedback/info",
+      "description": "",
+      "remote": true
+    },
+    "14018:32040": {
+      "key": "0ba79e45288fab1b15a83cb41e9b8cc5194a3bae",
+      "name": "Users/users",
+      "description": "",
+      "remote": true
+    },
+    "1800:61945": {
+      "key": "303efefcd123d52a40b02d57f8a82876e7c4c95a",
+      "name": "🌈 Dropdown / Data Source Trigger",
+      "description": "Dropdown: Oversized Text Trigger\nAlso called Data Source in Storybook",
+      "documentationLinks": []
+    },
+    "3407:82610": {
+      "key": "044e9d2e33045ce3c84befa5d146afce371e7e8c",
+      "name": "🌈 Dropdown / Chart Trigger",
+      "description": "Dropdown: Oversized Text Trigger\nAlso called Data Source in Storybook",
+      "documentationLinks": []
+    },
+    "1800:61894": {
+      "key": "004e933576b0a89a4d8df0873ba449b59bf7ef3f",
+      "name": "🌈 Dropdown / Text Trigger",
+      "description": "Dropdown: Text Trigger (Also called Data Measure in Storybook)",
+      "documentationLinks": []
+    },
+    "14066:1556": {
+      "key": "bb80b3d0b0dd08009621cbc77c4c72ec331770c0",
+      "name": "🌈 Dropdown status",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2105:59996": {
+      "key": "418359f2c21a11732b82e234d66102bd0eeab68d",
+      "name": "🌈 Sunrise Status Indicator (Dots)",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14439:1331": {
+      "key": "11dae0eeed7a5a19a18291bb4fd55268bf7c3546",
+      "name": ". DEPRECATED 🌈 Dropdown / Guide Status",
+      "description": "Dropdown: Guides Status Trigger",
+      "documentationLinks": []
+    },
+    "14439:1404": {
+      "key": "9f946c773ec5f97ceab2eaeae1897597deb73091",
+      "name": ".DEPRECATED🌈 Dropdown / Sunrise Status",
+      "description": "Sunrise Status Trigger Dropdown",
+      "documentationLinks": []
+    },
+    "1012:16280": {
+      "key": "c71907971c758b8413b45522ae3202ff85fa34e1",
+      "name": "🌈 Input (Text)",
+      "description": "🌈 Text Input\nUsed for long and short form entries",
+      "documentationLinks": []
+    },
+    "14018:39044": {
+      "key": "9e299ca164b9795ab026cb9cc00411d1357a5270",
+      "name": "Editor/search",
+      "description": "",
+      "remote": true
+    },
+    "4548:109667": {
+      "key": "cfcbb6988b50a93f189f8ddc48866ad780c7d69d",
+      "name": "Password Strength",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3603:98482": {
+      "key": "10ab10f2727b641af90c0b5ff0bfce65caad1f5b",
+      "name": "🌈 Textarea",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2783:65636": {
+      "key": "45678fce6bee68203f27669ec7ca5ca2aa397df0",
+      "name": "🌈 Input (Number)",
+      "description": "🌈 Number Input\nUse when making small, incremental number changes that require only a few clicks.",
+      "documentationLinks": []
+    },
+    "19375:16349": {
+      "key": "1bb0b18f4d6e00c1486463f9f35deeacd7292401",
+      "name": "🌈 Dropdown / Standard Trigger",
+      "description": "🌈 Standard Dropdown Trigger",
+      "documentationLinks": []
+    },
+    "19375:16405": {
+      "key": "55cf536b234803b231ff850c821677332c6db978",
+      "name": "🌈 Dropdown / Data Source Trigger",
+      "description": "Dropdown: Oversized Text Trigger\nAlso called Data Source in Storybook",
+      "documentationLinks": []
+    },
+    "19375:16434": {
+      "key": "73f7b095bc2d9f1d2d2bfd14ff61dad08aa3c4c8",
+      "name": "🌈 Dropdown / Chart Trigger",
+      "description": "Dropdown: Oversized Text Trigger\nAlso called Data Source in Storybook",
+      "documentationLinks": []
+    },
+    "19375:16463": {
+      "key": "ec5e2b4652bd2b6e6b319e402bf8cfde62869710",
+      "name": "🌈 Dropdown / Text Trigger",
+      "description": "Dropdown: Text Trigger (Also called Data Measure in Storybook)",
+      "documentationLinks": []
+    },
+    "1322:17033": {
+      "key": "aaeca7e192b2dddaa0bd039a163297d52e0abe61",
+      "name": "🌈 Checkbox",
+      "description": "",
+      "remote": true
+    },
+    "952:13168": {
+      "key": "225dbbb935b7d4c5927e833e8b670d31246ba736",
+      "name": "🌈 Radio Button",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1012:19620": {
+      "key": "96a6727796c85bccbef0be14d7e1d75c3378238d",
+      "name": "text guidance block",
+      "description": "",
+      "remote": true
+    },
+    "790:16802": {
+      "key": "d4007f732e7de76773c4ec1d07a08ec4be1e2a1d",
+      "name": "🌈  Button Group",
+      "description": "",
+      "documentationLinks": []
+    },
+    "791:17125": {
+      "key": "99400241c5f79f75e9f69a298dfe00fabe491c50",
+      "name": "align-center",
+      "description": "",
+      "remote": true
+    },
+    "791:17150": {
+      "key": "282935a64f281e882d91c87fa8393cf1d1770c69",
+      "name": "align-right",
+      "description": "",
+      "remote": true
+    },
+    "791:17097": {
+      "key": "b9d5ca1a56cabdcb6b1e609fb02b09400a178e52",
+      "name": "more-horizontal",
+      "description": "",
+      "remote": true
+    },
+    "791:16818": {
+      "key": "4fa5ccfc92d3729138ef130dc93bef486caaf9e0",
+      "name": "download",
+      "description": "",
+      "remote": true
+    },
+    "3302:78048": {
+      "key": "c1f31dcf9853860e534bbf6a7fb31957454c3606",
+      "name": "🌈  Date Picker Trigger",
+      "description": "🌈 Date Picker Trigger options: Standard single date, Min/Max, Range, Multiple. Shortcut dates can be added as override on the component directly.",
+      "documentationLinks": []
+    },
+    "14018:38993": {
+      "key": "c5f78125743d84201fdbb3d0d63c20ea99b37748",
+      "name": "General/calendar",
+      "description": "",
+      "remote": true
+    },
+    "3306:79657": {
+      "key": "673a6cbf57c7821c78277c00b26a4be4a71ca7b7",
+      "name": "🌈 Date Picker Dropdown",
+      "description": "🌈 Date picker dropdown options: Simple select single date, Min, Max, Range or Select multiple dates. See Storybook for dynamic examples.",
+      "documentationLinks": [
+        {
+          "uri": "https://pendo-io.github.io/components/?path=/docs/components-date-picker--default"
+        }
+      ]
+    },
+    "14018:38938": {
+      "key": "4c3807ab7be23805d9f946cbaf45e6e145cdebc9",
+      "name": "Arrows/chevron-left",
+      "description": "",
+      "remote": true
+    },
+    "3306:78996": {
+      "key": "51e407cba6fb418e9673173a10f74bb237abd462",
+      "name": ".Date Picker Day",
+      "description": "",
+      "documentationLinks": []
+    },
+    "4370:104567": {
+      "key": "a6fd3d2008beedab9ef963f25b6634a2ee1c77a9",
+      "name": "🌈 Color Picker",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38004": {
+      "key": "ef12406f68fda14f87d099536833d3654b5ffe71",
+      "name": "Operators/check",
+      "description": "",
+      "remote": true
+    },
+    "4370:104589": {
+      "key": "8b0157f893d85d1e0d2036137c06f304ce9caffb",
+      "name": ".Text Cursor",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:35578": {
+      "key": "d1754779b8ecacbf1575397530a5ad5c6edf70d3",
+      "name": "General/clock",
+      "description": "",
+      "remote": true
+    },
+    "2182:61252": {
+      "key": "771d08756cb4aeacc06df56c89047980172c08c5",
+      "name": "🌈 Editable Content",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2178:60934": {
+      "key": "48b687639f19fbe1a5c589e57f308a96dccf6eaa",
+      "name": ".Button",
+      "description": "",
+      "remote": false
+    },
+    "2169:113659": {
+      "key": "ef12406f68fda14f87d099536833d3654b5ffe71",
+      "name": "Operators/check",
+      "description": "",
+      "remote": true
+    },
+    "2169:113667": {
+      "key": "1729b61df98de307cedb8312b7b315b8108e0abd",
+      "name": "Operators/x",
+      "description": "",
+      "remote": true
+    },
+    "2190:60596": {
+      "key": "d8bb63df1d019f580f224f104a1518bb03919de5",
+      "name": ".Text Cursor",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38955": {
+      "key": "a583f54ed71e71cda5e09c3a516822467b2cff41",
+      "name": "General/loader",
+      "description": "",
+      "remote": true
+    },
+    "1851:59900": {
+      "key": "cc1a93cdef986a7d2a91c1773d008372c96c1113",
+      "name": "🌈 Toast Notifications",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2307:60497": {
+      "key": "7125d7df16065e60a8e1b192667cf745b38c1118",
+      "name": ".🌈 Metrics (DEPRECATED)",
+      "description": "DEPRECATED AND NO LONGER SUPPORTED. Please update to the new Metrics component.",
+      "documentationLinks": []
+    },
+    "12665:29930": {
+      "key": "7c1168cbb6bc84df15465938820540f600158609",
+      "name": "Arrows/arrow-down",
+      "description": "",
+      "remote": true
+    },
+    "12665:29940": {
+      "key": "a42e9e3d9153e15fd25a3bc0d6ecc61683f67ed6",
+      "name": "Arrows/arrow-up",
+      "description": "",
+      "remote": true
+    },
+    "7247:19289": {
+      "key": "665132fae6790854d8dee1d4772e99ac3d24e293",
+      "name": " 🌈 Metrics",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://pendo-io.github.io/components/?path=/docs/components-metric--docs"
+        }
+      ]
+    },
+    "12633:307": {
+      "key": "0a07c62eb8c3cf1b13684c48c27c6ec4b6fc731e",
+      "name": "Operators/check-circle",
+      "description": "",
+      "remote": true
+    },
+    "12633:509": {
+      "key": "a14973bb82a9fefd1d09a8bc38284ba632aa6528",
+      "name": ".Series label indicator",
+      "description": "",
+      "documentationLinks": []
+    },
+    "12673:31195": {
+      "key": "502695fd6aab94b238636ef2c4e73e530ef80013",
+      "name": ".trend tag",
+      "description": "",
+      "documentationLinks": []
+    },
+    "13038:35791": {
+      "key": "0f6707b23a545937300b4c7dd9940e74e5b1e848",
+      "name": "Operators/minus",
+      "description": "",
+      "remote": true
+    },
+    "9044:24864": {
+      "key": "a3717ff04cf9069df548389c4b45633c727c8564",
+      "name": "Vertical Loader",
+      "description": "",
+      "documentationLinks": []
+    },
+    "12633:466": {
+      "key": "67e28bc88638f3604c0324510f5708bb7bfc2a55",
+      "name": "Communication/send",
+      "description": "",
+      "remote": true
+    },
+    "12665:29960": {
+      "key": "9cd2367563ed25b90f62594cd45f2c146cbb15cf",
+      "name": "Alerts-and-feedback/alert-triangle",
+      "description": "",
+      "remote": true
+    },
+    "1499:54272": {
+      "key": "7da306a5e970764eb7c2c07e0c0dd289f0346a82",
+      "name": "🌈 Modal Overlay",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1502:57407": {
+      "key": "7ca4122347f0bdb27fe8454c8293e797f2e3c80e",
+      "name": "🌈 Modal",
+      "description": "Modal\n\nAppears over the entire main content of a page - should be used when you want to give the user specific focus.",
+      "documentationLinks": []
+    },
+    "6440:119621": {
+      "key": "addfcae42ea9216f7b73f251a5df3ba8ab2929bf",
+      "name": "🌈 Popover",
+      "description": "",
+      "documentationLinks": []
+    },
+    "6440:118529": {
+      "key": "5550748bf4cf2b37cd4a6b2fd75aedacfc511168",
+      "name": "🌈 Button",
+      "description": "Button - \n\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\n\nComponent includes:\nStandard and Split types\nPrimary, Secondary Tertiary, Destructive.\n\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "4117:108579": {
+      "key": "3bc06f1ccce132fb5ecd08767db2d6d677bb29d4",
+      "name": "🌈 Progress Circle",
+      "description": "Click on the layer called \"measure\" and Change the % value in the properties panel.\nTo show 100% change the style variant to \"Complete\"\nTo show values between 0 - 99% change the style to \"Progress\"",
+      "documentationLinks": []
+    },
+    "3173:74303": {
+      "key": "1fd70bf88cb36c4ebee4e806bf576aa74564df35",
+      "name": "🌈  Slider",
+      "description": "To update the dot location (or value)\n\n1. Find the Value layer (or 1st and 2nd Dot Value layers in Range)\n\n2. Go to the Auto Layout property on the right and adjust up (or down) the \"Spacing between items\" value (it's the one with the ]|[ icon)",
+      "documentationLinks": []
+    },
+    "3140:75264": {
+      "key": "1943a8f64401c44af8ca22176fad4106d4a0eccf",
+      "name": ".Marks",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3192:76762": {
+      "key": "ece0b1b0c912361c28d3679645a671ff8da722fa",
+      "name": ".Dot/Bar/With Tooltip on Mouseover",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3173:74405": {
+      "key": "1f9a4b43f3e70ed0ce13fbc8b272e2e15d8c3da5",
+      "name": ".Dot/Round/With Tooltip on Mouseover",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2566:61548": {
+      "key": "509ba375e19b380f909b28b9f00d26f8c258cf5e",
+      "name": "🌈 Tabs",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2566:61519": {
+      "key": "0b9c5abc79c927ef7e6f0a92aa9b4442cf31c9c5",
+      "name": ".Tab - Card tabs",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2535:61417": {
+      "key": "7b6b32443159d3043bd02efa1059c490c26a55c9",
+      "name": ".Tab - Vertical links",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2566:61429": {
+      "key": "e7bd028cec6e752e8d2a6cc475e718ea717bece2",
+      "name": ".Tab - Horizonal links",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2295:55860": {
+      "key": "f9a2f51b2e9fa954fdcdd6ca51dff7ad368b19f2",
+      "name": "🌈 Toggle",
+      "description": "",
+      "documentationLinks": []
+    },
+    "12228:6229": {
+      "key": "38ca425c1fbf5f256b0671e619aa9e8aa5e14951",
+      "name": "🌈 Toggle",
+      "description": "",
+      "documentationLinks": []
+    },
+    "2302:62662": {
+      "key": "95733c8f175494c42c42c7429e0b6101dd20754e",
+      "name": "🌈 Tooltip",
+      "description": "",
+      "documentationLinks": []
+    },
+    "4106:108540": {
+      "key": "e5c901fd3c9bd5cd5c0b4390220887312dccbcaa",
+      "name": "🌈 Upload",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38216": {
+      "key": "cca03abe60ac3840c47f0525eb52aa3581e8726d",
+      "name": "Editor/image",
+      "description": "",
+      "remote": true
+    },
+    "14018:38983": {
+      "key": "558ef746156bf3a191d8cbd00b0e62988e5eeef7",
+      "name": "Operators/minus-circle",
+      "description": "",
+      "remote": true
+    },
+    "14018:38203": {
+      "key": "b18d17c9f6d61b974ba06943c760f7de22405b87",
+      "name": "Editor/trash",
+      "description": "",
+      "remote": true
+    },
+    "4552:107471": {
+      "key": "7386c04c47d7bc9fc9ad225825e5234d3414c9f7",
+      "name": "🌈 Loading Indicator",
+      "description": "Loading Indicator\nIf you don't see your animation working in your file, try forcing your prototype to restart [R]",
+      "documentationLinks": []
+    },
+    "3918:104643": {
+      "key": "7fdf513d0d4ffd95f929976fbbfb1e4f5a3c076a",
+      "name": ".Loader animation",
+      "description": "If you're not seeing an animation on your loader, hit [R] in your prototype to reset the prototype",
+      "documentationLinks": []
+    },
+    "8715:24512": {
+      "key": "a18c01ad05bf5d9a581299da80e0621e2eab1f0c",
+      "name": "🌈 Page Frame Pendo",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14861:2477": {
+      "key": "662b03fc47b12c310b65cb91dd27addd71ecf272",
+      "name": "❗ Navigation",
+      "description": "",
+      "remote": true
+    },
+    "14861:2259": {
+      "key": "f71010fa2fa5249e052f4ac57d231954ab577c15",
+      "name": "Nav Item",
+      "description": "",
+      "remote": true
+    },
+    "14861:2220": {
+      "key": "5c25956d1e36d15c0c1689cad08b6b40905e4792",
+      "name": "Home",
+      "description": "",
+      "remote": true
+    },
+    "14861:2245": {
+      "key": "34066ec33e934cd1e69201ee5e3e6e00132f66e4",
+      "name": "Arrows/arrow-up-circle",
+      "description": "",
+      "remote": true
+    },
+    "14861:2307": {
+      "key": "f2bdca082e07b77df46349e48758362fb66e81a3",
+      "name": "Dashboards",
+      "description": "",
+      "remote": true
+    },
+    "14861:2291": {
+      "key": "7004ae6578051cebdb9555d74d88286cfa1c449f",
+      "name": "Layout/dashboard",
+      "description": "",
+      "remote": true
+    },
+    "14861:2230": {
+      "key": "c88fce83fb525b934559295bb0525d5f2cf3c334",
+      "name": "Product",
+      "description": "",
+      "remote": true
+    },
+    "14861:2332": {
+      "key": "bc41514be64b05f909572d2cad4aae3125905083",
+      "name": "People",
+      "description": "",
+      "remote": true
+    },
+    "14861:2345": {
+      "key": "71c15e822e25d02ca725072cf315e48d42b45bdf",
+      "name": "Behavior",
+      "description": "",
+      "remote": true
+    },
+    "14861:2352": {
+      "key": "c9fb46b35fe14510846bad8c993edafe14a995e9",
+      "name": "NPS",
+      "description": "",
+      "remote": true
+    },
+    "14861:2359": {
+      "key": "4f4c279a10a440e513f4644daf383bb9cf174059",
+      "name": "Guides",
+      "description": "",
+      "remote": true
+    },
+    "14861:2366": {
+      "key": "8ab69ea661019633847bb5941019fb6c5515ec98",
+      "name": "Orchestrate",
+      "description": "",
+      "remote": true
+    },
+    "14861:2388": {
+      "key": "c1636a869da2700ae7d98a781a2a21ab98c3f4e3",
+      "name": "Listen",
+      "description": "",
+      "remote": true
+    },
+    "14861:2404": {
+      "key": "feffc9ddd1eabfdde43696c9f55332a966fa2d78",
+      "name": "Replay",
+      "description": "",
+      "remote": true
+    },
+    "14861:2414": {
+      "key": "bc28edf68b4176c7b2e0034d2057ea40fc7dda18",
+      "name": "Saas Management",
+      "description": "",
+      "remote": true
+    },
+    "14861:2421": {
+      "key": "b74d96475d2ec90da154f452ba5de3264be1b109",
+      "name": "Pendo Tools",
+      "description": "",
+      "remote": true
+    },
+    "14861:2428": {
+      "key": "8fe706e2299e89cb86e36e53b87588146d5f8d8c",
+      "name": "Product Switcher",
+      "description": "",
+      "remote": true
+    },
+    "14861:2462": {
+      "key": "afcb9eb0fbfd7b215ace1f938d913a77b683d1b9",
+      "name": "Settings",
+      "description": "",
+      "remote": true
+    },
+    "8715:23403": {
+      "key": "0548f728e6d21f58e9fedf7f8d7cb41cd03f6ba4",
+      "name": "🌈 Headers",
+      "description": "",
+      "remote": true
+    },
+    "8715:23349": {
+      "key": "ae6d3e1c652fcd7cf27f75f0bbe3b2a67272e05e",
+      "name": ".Header title group base component",
+      "description": "",
+      "remote": true
+    },
+    "8715:20000": {
+      "key": "7bc10999ec44eb3c0f593ad6350ddec0f03edaa8",
+      "name": "🌈 Button",
+      "description": "Button - \n\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\n\nComponent includes:\nStandard and Split types\nPrimary, Secondary Tertiary, Destructive.\n\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "8715:29222": {
+      "key": "b24cf661b32e6d0029628f9fb9373e9f77b8fc1b",
+      "name": "🌈 Global filter",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38108": {
+      "key": "8a81de88fc978be964b6ddc3365dd15d37b02340",
+      "name": "Arrows/repeat",
+      "description": "",
+      "remote": true
+    },
+    "8715:23531": {
+      "key": "c71907971c758b8413b45522ae3202ff85fa34e1",
+      "name": "🌈 Input (Text)",
+      "description": "🌈 Text Input\nUsed for long and short form entries",
+      "remote": true
+    },
+    "2935:69943": {
+      "key": "9e299ca164b9795ab026cb9cc00411d1357a5270",
+      "name": "Editor/search",
+      "description": "",
+      "remote": true
+    },
+    "8715:24826": {
+      "key": "1098c3982fe1cc4bdc572d22dbd7cc3236e18ffb",
+      "name": ".Deprecated- Frame - Adopt",
+      "description": "",
+      "documentationLinks": []
+    },
+    "8715:24179": {
+      "key": "316b3416eb7dcca3dfc6006db5ec301f77b3eb05",
+      "name": "Navbar",
+      "description": "",
+      "remote": true
+    },
+    "8715:24274": {
+      "key": "4d201d39ae049dccd89a2ef99e0ce50fec764b74",
+      "name": ".Navigation Item - Analytics",
+      "description": "",
+      "remote": true
+    },
+    "8715:24290": {
+      "key": "0193dd70c8f9c3cb98337fd9092a8e089dd467fc",
+      "name": "Adopt/adopt-analysis",
+      "description": "",
+      "remote": true
+    },
+    "8715:24300": {
+      "key": "02a8fdb3681d9e747793e3252bd5d5a9f187a0b7",
+      "name": ".Navigation Item - Paths",
+      "description": "",
+      "remote": true
+    },
+    "8715:24316": {
+      "key": "b747222d331f7c5527ef12c7453e72dd078bc714",
+      "name": "Adopt/adopt-paths",
+      "description": "",
+      "remote": true
+    },
+    "8715:24332": {
+      "key": "ba396d66f54378a566cc4f639afb2c49cdec0cd2",
+      "name": ".Navigation Item - Workflows",
+      "description": "",
+      "remote": true
+    },
+    "8715:24348": {
+      "key": "55047027026620124708112afe6657ef1988f98e",
+      "name": ".Navigation Item - Segments",
+      "description": "",
+      "remote": true
+    },
+    "8715:24364": {
+      "key": "77bdf2dbb69bdc39c8dbee8f4c34a9842fe335be",
+      "name": "Adopt/adopt-segments",
+      "description": "",
+      "remote": true
+    },
+    "8715:24383": {
+      "key": "13bd8c26397b9d8e0e9dfb652f278fd1f3e80301",
+      "name": ".Navigation Item - Resource Center",
+      "description": "",
+      "remote": true
+    },
+    "8715:24399": {
+      "key": "b1b7d2bdc402275c4e84df9d20a068f671a171b0",
+      "name": "Adopt/adopt-resource-center",
+      "description": "",
+      "remote": true
+    },
+    "8715:24406": {
+      "key": "d517efb239cebe792e23f634ad098e202c29b87e",
+      "name": ".Navigation Item - Guides",
+      "description": "",
+      "remote": true
+    },
+    "8715:24422": {
+      "key": "f86ec142251416a89d947ff8eca8bf4d2f0f8af5",
+      "name": "Adopt/adopt-guides",
+      "description": "",
+      "remote": true
+    },
+    "8715:24435": {
+      "key": "7a4f79aa164a47577361245c2ea437bd9e6854e6",
+      "name": ".Navigation Item - Subscriptions",
+      "description": "",
+      "remote": true
+    },
+    "8715:24451": {
+      "key": "a269ceeaa6aee4e4865e320fe999ab1b8a61a2b7",
+      "name": "Adopt/adopt-subscriptions",
+      "description": "",
+      "remote": true
+    },
+    "8715:24458": {
+      "key": "0a86c97d9dec8fbd26a31dba80b5e57b6b4a7422",
+      "name": ".Navigation Item - Settings",
+      "description": "",
+      "remote": true
+    },
+    "8715:24474": {
+      "key": "be89828c71132427b234dfc7398d27ab0474f031",
+      "name": ".Navigation Item - Logout",
+      "description": "",
+      "remote": true
+    },
+    "8715:24490": {
+      "key": "359553561ee3a089a76108971c5ca543df3e9d59",
+      "name": "Arrows/log-out",
+      "description": "",
+      "remote": true
+    },
+    "8715:24015": {
+      "key": "2dbade159b8d9197617d87eaec68e9e8967ac030",
+      "name": "Nav Item",
+      "description": "",
+      "remote": true
+    },
+    "8715:24025": {
+      "key": "e631f79290c23ccfcf7f79f262efee8a590178aa",
+      "name": "Dashboards",
+      "description": "",
+      "remote": true
+    },
+    "8715:24032": {
+      "key": "bdbf952872a57208a730a639015bc4e2dc9e683d",
+      "name": "Product",
+      "description": "",
+      "remote": true
+    },
+    "8715:24039": {
+      "key": "c362e8af1a6fb64ac7e709618a1a819273e1f6da",
+      "name": "People",
+      "description": "",
+      "remote": true
+    },
+    "8715:24046": {
+      "key": "e7486497334e68019061ccaa200120c2836bfb17",
+      "name": "Behaviour",
+      "description": "",
+      "remote": true
+    },
+    "8715:24060": {
+      "key": "74046cc790ff3954aa1f2b13e0dcda4afddbb527",
+      "name": "Guides",
+      "description": "",
+      "remote": true
+    },
+    "8938:24856": {
+      "key": "18498b44eda6370fcc1b036e7a38c2888f52d5a9",
+      "name": "General/roadmap",
+      "description": "",
+      "remote": true
+    },
+    "8938:24872": {
+      "key": "7568d2e5276dbb0d0605c2decbfc085c8e856ead",
+      "name": "General/Lightbub",
+      "description": "",
+      "remote": true
+    },
+    "8715:24074": {
+      "key": "4e8d52b95d11b841b5d8d5e38371ce11c7e3d83c",
+      "name": "Subscription",
+      "description": "",
+      "remote": true
+    },
+    "8715:24090": {
+      "key": "582faf53e4cece1119b5c7fcc7c249db238e3791",
+      "name": "Product Switcher",
+      "description": "",
+      "remote": true
+    },
+    "14018:38858": {
+      "key": "17deebada2a4858422574e654715de475e3d7c8e",
+      "name": "Arrows/external-link",
+      "description": "",
+      "remote": true
+    },
+    "14018:39066": {
+      "key": "9636723dcfa40603028caf0363387287887e4e67",
+      "name": "Media and devices/play",
+      "description": "",
+      "remote": true
+    },
+    "8715:21638": {
+      "key": "509ba375e19b380f909b28b9f00d26f8c258cf5e",
+      "name": "🌈 Tabs",
+      "description": "",
+      "remote": true
+    },
+    "8715:21630": {
+      "key": "e7bd028cec6e752e8d2a6cc475e718ea717bece2",
+      "name": ".Tab - Horizonal links",
+      "description": "",
+      "remote": true
+    },
+    "3480:96327": {
+      "key": "da50caf3097a20128cd48bbd812d1a1ac374be5c",
+      "name": "🌈 🧑‍🔬 Table Header",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:38239": {
+      "key": "615092ef760a05a9fe70ed3f911120a0bd93e93c",
+      "name": "Arrows/download",
+      "description": "",
+      "remote": true
+    },
+    "14018:38229": {
+      "key": "864cd9cfcc1616067e31c2e8415e7804713d90e9",
+      "name": "General/columns",
+      "description": "",
+      "remote": true
+    },
+    "9616:5143": {
+      "key": "01bbf04c89fabe2bb83ec0d69ec2e5066dfb607c",
+      "name": "🌈 Empty states",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14018:35693": {
+      "key": "0c4549949b1e97389d26124c54f284e89a022a73",
+      "name": "🌈 Data",
+      "description": "Use (K) to SCALE illustrations!\nSpot illustrations are typically rich in personality and condensed into expressive vignettes, showing up in places like webpages, ads, and empty states.",
+      "remote": true
+    },
+    "14018:35681": {
+      "key": "6b3c95bbdebe25213393d68173bc75e731365959",
+      "name": "🌈 Mini/General",
+      "description": "",
+      "remote": true
+    },
+    "8715:21763": {
+      "key": "616c5c7fc80c16f481767f9d93130295e8daeb04",
+      "name": ".Header title group base component",
+      "description": "",
+      "documentationLinks": []
+    },
+    "8715:21803": {
+      "key": "eeb2bf53ae76cafbe1c47f6403d4be7dba5f5e2d",
+      "name": "🌈 Header",
+      "description": "",
+      "documentationLinks": []
+    },
+    "8715:21688": {
+      "key": "f11d5d6b5b175cc02d062a2ce80ee606a986f447",
+      "name": "🌈 Dropdown / Guide Status",
+      "description": "Dropdown: Guides Status Trigger",
+      "remote": true
+    },
+    "14018:38326": {
+      "key": "d58627551d7c279298ecb737a042da3bc4e8c954",
+      "name": "Media and devices/monitor",
+      "description": "",
+      "remote": true
+    },
+    "14018:39054": {
+      "key": "c879cb2e0ef1dac25c70f11fb8cc6f02d3c8ae51",
+      "name": "🌈 Product Area Colors",
+      "description": "",
+      "remote": true
+    },
+    "3449:90017": {
+      "key": "d7f8ae72e08b3590127787c6be8709795eb37736",
+      "name": "🌈 🧑‍🔬 Table Cell",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3449:92260": {
+      "key": "419efd2ca1fcaf742b42d77de30fafe16e21896a",
+      "name": ".🌈 Table Cell Action ",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3560:98789": {
+      "key": "1fef5554c541a7e0fbd9f03d7048e41e3dd1f35b",
+      "name": "🌈 Table Cell Action ",
+      "description": "",
+      "remote": true
+    },
+    "14018:38378": {
+      "key": "c1841ee41af9ec34c9b8dc58a31ab563197a85fa",
+      "name": "General/eye",
+      "description": "",
+      "remote": true
+    },
+    "3603:97758": {
+      "key": "ac6387d7a9429f771afbd9baa2f6ab3184b648df",
+      "name": "❗ Table Chart - Utilization",
+      "description": "",
+      "remote": true
+    },
+    "8278:19900": {
+      "key": "b0be3547039a36d4741db76c920c2583aa484345",
+      "name": "❗Table Chart - Engagement",
+      "description": "",
+      "remote": true
+    },
+    "3449:92311": {
+      "key": "f7589efe402f5b76ea9428d82ad83c3d32f74bd3",
+      "name": ".🌈 Color Box",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3560:98746": {
+      "key": "84b401c937fab2c50d2cec43e3756f136caf3abb",
+      "name": "🌈 Color Box",
+      "description": "",
+      "remote": true
+    },
+    "14018:38838": {
+      "key": "2926966aa59155d1e78bee8b52799e204e5636ef",
+      "name": "Editor/edit-2",
+      "description": "",
+      "remote": true
+    },
+    "3449:91988": {
+      "key": "25f4a0c77b78d526807529799f85172e15ac6491",
+      "name": "🌈 🧑‍🔬 Column Header",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3520:104318": {
+      "key": "b7d1400fed7883f1090e62ae46b31601a70d430e",
+      "name": ".🌈 Table - Sorting",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3495:97960": {
+      "key": "c8c55382b5e0220e757e1182779a207620414fd2",
+      "name": ".Table Column presets",
+      "description": "",
+      "documentationLinks": []
+    },
+    "17103:7424": {
+      "key": "f28bcab99e26154a34c1028cd09d70996aba3731",
+      "name": "Arrows/chevrons-left",
+      "description": "",
+      "remote": true
+    },
+    "17103:7434": {
+      "key": "08933608e865f083d66788a8b7fbea55a17c92af",
+      "name": "Arrows/chevrons-right",
+      "description": "",
+      "remote": true
+    },
+    "17103:3331": {
+      "key": "be6935483db8dbbea22678aa3af8ac70e5b72e04",
+      "name": "NavLogo",
+      "description": "",
+      "remote": true
+    },
+    "17103:3338": {
+      "key": "0bfabe2b999b7844e20ada9dcfe5481197abc8e0",
+      "name": "PrimaryNavItem",
+      "description": "",
+      "remote": true
+    },
+    "17103:3359": {
+      "key": "a39a3ecb134507ed27ac24742b2b544266546dd9",
+      "name": "Dashboard-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3375": {
+      "key": "542d74ac38cad2614cb51dca1cd8bc9121ac79ca",
+      "name": "Product-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3382": {
+      "key": "8852f56cc62820580396d4a1b117349c6e288a3e",
+      "name": "People-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3395": {
+      "key": "34e7d758d1ce16c789da3702d12885ee0c4c4645",
+      "name": "Behaviour-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3404": {
+      "key": "82dcdb0c9687160189d0202c2561ce1bc3d5b39d",
+      "name": "Guides-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3411": {
+      "key": "2aa9a83e07b3d97531fad1c2471d4c961655a493",
+      "name": "Replay-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3421": {
+      "key": "f70512b3a991c8697aceb5969fd9adb2535b347a",
+      "name": "PortfolioMgmt-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3434": {
+      "key": "00821b6510a0bb2461d6210008a180ea2f551e17",
+      "name": "PendoTools-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3441": {
+      "key": "25150f9dd447cbcb6bfb52e2aa4725a37b2a6784",
+      "name": "Upgrade-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3456": {
+      "key": "98ffd08f97edab0e79d40cfadd1a0c76600b8007",
+      "name": "monitor-smartphone",
+      "description": "",
+      "remote": true
+    },
+    "17103:3472": {
+      "key": "46216e337b10143663124075bb4db704123c9c97",
+      "name": "Settings-New",
+      "description": "",
+      "remote": true
+    },
+    "17103:3482": {
+      "key": "dd0d2cebd13ba5e80fbf50f31c5ccab0968bf10f",
+      "name": "Arrows/send-top",
+      "description": "",
+      "remote": true
+    },
+    "17103:3507": {
+      "key": "4c1ad9b791d97ff64533afb635be9b964fb0084a",
+      "name": "🌈 Column Header",
+      "description": "",
+      "remote": true
+    },
+    "17103:3564": {
+      "key": "f47c07ca21d9aa43cdb25ca35eca3706b55471a4",
+      "name": "🌈 🧑‍🔬 Table Cell",
+      "description": "",
+      "remote": true
+    },
+    "17103:5200": {
+      "key": "054ea5d8e5093e99e3494ee80eb1dd9ce1f740da",
+      "name": "🌈 🧑‍🔬 Table Cell",
+      "description": "",
+      "remote": true
+    },
+    "17103:3645": {
+      "key": "e7ccfe7c02f42a99f1f9102c6906a33743125d1b",
+      "name": "🌈 Button",
+      "description": "Button - \n\nUse Buttons to help users identify and trigger an action. Ie Submitting a form\n\nComponent includes:\nStandard and Split types\nPrimary, Secondary Tertiary, Destructive.\n\nEnable icons, loaders and more ...",
+      "remote": true
+    },
+    "4449:107397": {
+      "key": "92ed2bd124ec4dae77d2a2fb3ba7ce9b9cfba033",
+      "name": "🌈 Cursors",
+      "description": "",
+      "documentationLinks": []
+    },
+    "17103:6858": {
+      "key": "7523fc111e619da64c80f69971f2b2d2a939e844",
+      "name": "PA Text Trigger",
+      "description": "",
+      "remote": true
+    },
+    "14018:38362": {
+      "key": "fc980018f45f9e503d7a77f0a01df1bef1c30f90",
+      "name": "General/eye-off",
+      "description": "",
+      "remote": true
+    },
+    "3449:92283": {
+      "key": "a643f81241af3186edddfc45425f41c577f87c9c",
+      "name": ".🌈 Table Charts",
+      "description": "",
+      "documentationLinks": []
+    },
+    "3449:92336": {
+      "key": "46b0c40e87bbaf208bb540849cd7976224bbbc37",
+      "name": ".🌈 User Status",
+      "description": "",
+      "documentationLinks": []
+    },
+    "691:13365": {
+      "key": "051b82c712963ce4da5af264597135ae84d3c825",
+      "name": "Annotations",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:51871": {
+      "key": "746050ac055365d8a03ce19a04301814cc6d4392",
+      "name": "Arrow / Curved",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:51929": {
+      "key": "a128319b635b558f54ce8d653018f9d02389eed6",
+      "name": "Arrow / Linear",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:51959": {
+      "key": "23a94650c811aa9b697414d46b462e77d580963e",
+      "name": "Callout",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:52027": {
+      "key": "ad5fbb6c9e043895a0f864625ba3ceab7bb6628b",
+      "name": "Handoff Section Header",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:52064": {
+      "key": "4b605c5cfb043acd9908895df6f91f8bc0f603ed",
+      "name": "Radius",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:52071": {
+      "key": "626d89448afd63f30b94aafdb5e0a96154470289",
+      "name": "Ruler",
+      "description": "",
+      "documentationLinks": []
+    },
+    "1507:52086": {
+      "key": "8b0223d9b52e49808574e38c91c82ff4c286440f",
+      "name": "Spacer",
+      "description": "",
+      "documentationLinks": []
+    },
+    "595:8213": {
+      "key": "3295f0a5a48dca6dd5fa962304b69cb301ff5724",
+      "name": "Handoff Checklist",
+      "description": "",
+      "documentationLinks": []
+    },
+    "13472:980": {
+      "key": "c9ba8a3b3a52e7e18a4533c8db0006d7bf5fc50d",
+      "name": ".Peer Review Status",
+      "description": "",
+      "documentationLinks": []
+    },
+    "14909:425": {
+      "key": "63ed3f0af242322074a4be19df11bb779b4765c8",
+      "name": "Stamps",
+      "description": "",
+      "remote": true
+    },
+    "14909:388": {
+      "key": "a6aec97d691ab538c2b73bde7f15a81b73263b3f",
+      "name": ".Design Principles",
+      "description": "",
+      "remote": true
+    }
+  }
+}

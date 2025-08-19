@@ -1,0 +1,19 @@
+{
+  "id": "19281:5933",
+  "name": "Agentic design",
+  "type": "CANVAS",
+  "scrollBehavior": "SCROLLS",
+  "children": [],
+  "backgroundColor": {
+    "r": 0.9725490212440491,
+    "g": 0.9725490212440491,
+    "b": 0.9764705896377563,
+    "a": 1.0
+  },
+  "prototypeStartNodeID": null,
+  "flowStartingPoints": [],
+  "prototypeDevice": {
+    "type": "NONE",
+    "rotation": "NONE"
+  }
+}

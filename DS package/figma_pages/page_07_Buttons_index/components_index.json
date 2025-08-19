@@ -1,0 +1,84 @@
+{
+  "page_name": "Buttons",
+  "page_type": "CANVAS",
+  "total_children": 11,
+  "components": [
+    {
+      "index": 1,
+      "name": "\ud83c\udf08 Buttons",
+      "type": "FRAME",
+      "id": "773:16831",
+      "children_count": 2
+    },
+    {
+      "index": 2,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12912",
+      "children_count": 0
+    },
+    {
+      "index": 3,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12920",
+      "children_count": 0
+    },
+    {
+      "index": 4,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12913",
+      "children_count": 0
+    },
+    {
+      "index": 5,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12921",
+      "children_count": 0
+    },
+    {
+      "index": 6,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12923",
+      "children_count": 0
+    },
+    {
+      "index": 7,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12924",
+      "children_count": 0
+    },
+    {
+      "index": 8,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12925",
+      "children_count": 0
+    },
+    {
+      "index": 9,
+      "name": "--",
+      "type": "TEXT",
+      "id": "859:12926",
+      "children_count": 0
+    },
+    {
+      "index": 10,
+      "name": "Guidance",
+      "type": "FRAME",
+      "id": "1090:20341",
+      "children_count": 2
+    },
+    {
+      "index": 11,
+      "name": "Guidance",
+      "type": "FRAME",
+      "id": "9569:2529",
+      "children_count": 2
+    }
+  ]
+}

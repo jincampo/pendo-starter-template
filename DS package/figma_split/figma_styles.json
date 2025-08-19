@@ -1,0 +1,1866 @@
+{
+  "styles": {
+    "1824:57810": {
+      "key": "6fe157266d548a5c993363d2eece2bfd40815b19",
+      "name": "colors.offblack",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "952:13238": {
+      "key": "fb90e4073aa89781de33cf54b9165b75528dbb2c",
+      "name": "🌈 Type Scale/text-preset-16",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24875": {
+      "key": "b53b2a568e669bbeedb087e5e1b67124c9c767b9",
+      "name": "🌈 palette/purple/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24876": {
+      "key": "db5ac8fea7df0dc84eb544eae682c128d920ba81",
+      "name": "🌈 palette/magenta/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2105:60256": {
+      "key": "6f23bb93f9969009aa6ad1c863ac433bd64cd41a",
+      "name": "🌈 palette/orange/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4207:108493": {
+      "key": "fc511743337c9ae1cef84f5089196c4cd41dc3e5",
+      "name": "🌈 palette/pink/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:12574": {
+      "key": "73a237dc828e8262a7651a52348789ec1b189eee",
+      "name": "🌈 palette/gray/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "854:24788": {
+      "key": "8dee1b40bbd27b22d728a1ec6b7f253f42fc1cb3",
+      "name": "🌈 palette/lime/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8436": {
+      "key": "d66fbdc89b0bdb0b855072d8c91dd052bda58e46",
+      "name": "🌈 palette/gray/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8279": {
+      "key": "b5260093aefc6a3c00d92a4273c8b6f58c3582e1",
+      "name": "🌈 palette/gray/0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24877": {
+      "key": "b4cf895e38a957365f3e3b2d84074bc8321ed0a6",
+      "name": "🌈 palette/magenta/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24878": {
+      "key": "5f3f8823eddc1025e3804a7ad912d6ed11b505c1",
+      "name": "neutrals/gray/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24879": {
+      "key": "67c3e1bb76e1798123c66935c84925f03eb7ebb6",
+      "name": "primary/pank",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8948:24880": {
+      "key": "2776f842d06d3da3ab8b68c942ecd12d41d765c3",
+      "name": "🌈 brand/neutrals/brand-midnight",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "832:28434": {
+      "key": "6fe157266d548a5c993363d2eece2bfd40815b19",
+      "name": "colors.offblack",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "813:17936": {
+      "key": "39d3833ad315c441317f0a62be2d422a78104229",
+      "name": "🌈 Headings/Heading 2",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "23:4064": {
+      "key": "e0d5b1afb26489958dffacddc19b7fa2413749e9",
+      "name": "Gray / 70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "952:13237": {
+      "key": "e5e472f2dc7beab0fe10aeeba4ab0fe1170b85f6",
+      "name": "🌈 Type Scale/text-preset-18",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "832:28439": {
+      "key": "b03c434910b3894269fe5b4a020643990a45ccfc",
+      "name": "Gray / 90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8191": {
+      "key": "b1f5d2ed46ce6ad0eca08ab47cb1b757073729e6",
+      "name": "Gray / 20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8685": {
+      "key": "ca80f2025ecb3ec5b778053336598ecde520ef84",
+      "name": "🌈 palette/gray/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8681": {
+      "key": "3c8e8a56b217b677714301c4cc9d3f6e7254f214",
+      "name": "🌈 palette/gray/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4317": {
+      "key": "1df9cf8d43572d38f3ed3ce013aa3250dbc10ad9",
+      "name": "🌈 Headings/Heading 3",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "439:4165": {
+      "key": "f91b922f826abc8e87485a90a013f9b5751a16af",
+      "name": "🌈 palette/teal/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "724:18308": {
+      "key": "52e6f5379c51eb26afd2f77e6d110a9b113b0c87",
+      "name": "🌈 Link/Base - Default",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "633:27390": {
+      "key": "c62459af6b0d6592bdac1752bd6f70dbd37de0da",
+      "name": "🌈 Headings/Heading 4",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "407:4083": {
+      "key": "e19de7bad29f2794daa6535e4e676e9186c02cb4",
+      "name": "🌈 Paragraph/Base - Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "532:8259": {
+      "key": "5ee7a9127a4cc66b427bf0693f640723b3f8d4a8",
+      "name": "Option Token/Teal/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8280": {
+      "key": "9bb9e6001b707bbae3bf1082bc06a4750a75d6cb",
+      "name": "🌈 palette/gray/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "952:13272": {
+      "key": "b1cb658cfdf199967472d7e7d4465316fbad6149",
+      "name": "🌈 Headings/Heading 5",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1653:57495": {
+      "key": "24e41f35e6dd5aa9887e8da96f5443d890ee3cfd",
+      "name": "🌈 Headings/Heading 1",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "19:4022": {
+      "key": "dba2b9a896ea4cb41c63d271253b7dbe6c8286fd",
+      "name": "colors.white",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:12653": {
+      "key": "121e09fe60b10373c4089124dccf818121dd5603",
+      "name": "🌈 Headings/Heading 6",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "17103:7446": {
+      "key": "087050713ad07d0bcc099d380959aedbddc7e5a1",
+      "name": "🌈 palette/blue/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "407:4084": {
+      "key": "02e0dd8f1fdd815e3e149592d16b3cf3f396655c",
+      "name": "🌈 Paragraph/Base - Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "553:8435": {
+      "key": "7c30347135b0f2dce6cb8a645b151e4084bcba0a",
+      "name": "🌈 palette/gray/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1090:18812": {
+      "key": "4863333facfe7c24fd5be9a38accfce9c44a3307",
+      "name": "🌈 Link/Base - Underline",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "488:8298": {
+      "key": "5b90b926b68252b42ccd70029bf97a270e713aa4",
+      "name": "🌈 palette/teal/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "19152:1989": {
+      "key": "9a6c306f78b028008fb73f36c5d6235f1f594770",
+      "name": "🌈 palette/blue/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "554:12968": {
+      "key": "ddc10379c7eb8eb4f9050843a50bc83864e6049e",
+      "name": "🌈 palette/gray/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4251": {
+      "key": "46cca8b11691316e7b4a545da9dfaffe6bb648e8",
+      "name": "🌈 palette/yellow/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4250": {
+      "key": "42a841771b25e9c2a22ca52628067e6bd155d321",
+      "name": "🌈 palette/yellow/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "19152:2031": {
+      "key": "99c8f6ad57dfc067f1a28ce42dbf553c07393501",
+      "name": "🌈 palette/yellow/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:9184": {
+      "key": "146ad017aa790e90b3b962e2941511bae34f1ea0",
+      "name": "🌈 palette/red/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4301": {
+      "key": "a9fe15415d7f71427a2ca3a13089fb992a2fabb9",
+      "name": "🌈 palette/red/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "19152:2003": {
+      "key": "622bce6cb3d9a727926e332b6fc8d19d8baebe7b",
+      "name": "🌈 palette/red/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1994:61924": {
+      "key": "b5f5821f3fac7f56c12b72a596fc4a9d6c03ac97",
+      "name": "🌈 palette/Green/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4306": {
+      "key": "f027917fae081edc99226fab778e7e6cd5c5303d",
+      "name": "🌈 palette/Green/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "19152:2017": {
+      "key": "71cf1b6b786d1630ab12d0ff8592212e807a3632",
+      "name": "🌈 palette/Green/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1104:14917": {
+      "key": "fb90e4073aa89781de33cf54b9165b75528dbb2c",
+      "name": "🌈 Type Scale/text-preset-16",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "440:4310": {
+      "key": "27e868427b807f97733f6925f8c943dccd2e0b78",
+      "name": "🌈 palette/Green/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1012:16275": {
+      "key": "8d71209c262fa74637d3c1a24934f49d8a17fc16",
+      "name": "🌈 palette/red/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "633:66358": {
+      "key": "e5e472f2dc7beab0fe10aeeba4ab0fe1170b85f6",
+      "name": "🌈 Type Scale/text-preset-18",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "959:12044": {
+      "key": "59860a8cc5fe07a924a1a8e6cc34bd6dfe0b0825",
+      "name": "🌈 Paragraph/Small - Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "23:38": {
+      "key": "eee7ffff0984b866a84a6784ee4f9d217d60abe7",
+      "name": "Paragraph/Body - Inter Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "7367:19146": {
+      "key": "1f43fb86532dd4a3f7401953ddf464e184b94f30",
+      "name": "🌈 palette/teal/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "959:12045": {
+      "key": "56204694b16b967591bfe5b55c3e97e1bf82555e",
+      "name": "🌈 Paragraph/Small - SemiBold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "553:8951": {
+      "key": "1ff7de88895bf7eb451c2973d8ae94dcf2a5f146",
+      "name": "🌈 palette/red/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "633:27632": {
+      "key": "bc613dedee8f73a2b668367bb8e68d45d3fb982b",
+      "name": "🌈 palette/red/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4249": {
+      "key": "44787802ee738e7bf53604655d918e2f06f4b7a3",
+      "name": "🌈 palette/teal/5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "553:8682": {
+      "key": "cc672d37d69fb0df01cf93801114bdf4a37e9460",
+      "name": "🌈 palette/gray/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "791:17282": {
+      "key": "dbb523563c9bddfca5c5e812375e714e6c22e0a9",
+      "name": "🌈 palette/gray/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1090:18814": {
+      "key": "60df91778336cf20a331e73931cfa8afbef5015d",
+      "name": "🌈 Link/Small - Default",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3192:77356": {
+      "key": "3a93e5b70e92d40dfd51039a5c14769af502110b",
+      "name": "🌈 palette/teal/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2302:62671": {
+      "key": "ba7747003fb477b316c9a44253303ecc4dc1ce3a",
+      "name": "🌈 palette/gray/110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1388": {
+      "key": "deba19d9abae0026bd2c02c74efa47dc134dfc24",
+      "name": "🌈 palette/teal/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1090:18813": {
+      "key": "584de1e82656e4cbd9066b516a2338d821d91184",
+      "name": "🌈 Link/Small - Underline",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "13649:3006": {
+      "key": "168c4e73823651ad0a4f65a3999330de80f59a02",
+      "name": "🌈 data vis/Diverging classed palette F/viz-blue-120",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1142:13769": {
+      "key": "3a63ebcb0abaa54e55c32b4356063c42304f24ee",
+      "name": "🌈 palette/lime/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "404:4044": {
+      "key": "43f816462810fc4a683c4689fa2337319f1a1dd1",
+      "name": "Gray / 100 - Primary",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8188": {
+      "key": "1aac3167fc5707cdba540b4ea8ce631c95d2bee8",
+      "name": "Headings/<h2> XL",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "595:8189": {
+      "key": "1598d9802b0ba1288ea0cdbabdca759a7957c22b",
+      "name": "Headings/<h5> SM Bold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "595:8176": {
+      "key": "6b075d90e5623a167079c158acc4610225a04207",
+      "name": "Option Token/Gray/0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8184": {
+      "key": "bf439a0db4cbe9a24141a4a670c09255c0c835d9",
+      "name": "Option Token/Green/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8185": {
+      "key": "f85ed1d5a5e848449eb78e1bf2f0f289a2ece128",
+      "name": "Headings/<h4> Reg",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "817:15817": {
+      "key": "b444e20043a57982fe1c4d62b9f6d1519d0d68a8",
+      "name": "🌈 palette/gray/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8190": {
+      "key": "ba579ae0b0c634af8e2c7d8a38a997938a3e7466",
+      "name": "Headings/<h3> LG Bold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "595:8181": {
+      "key": "b96477d8f1909719d86ede3601c0b44fa9a7743d",
+      "name": "Option Token/Gray/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8182": {
+      "key": "fcca698306fb74723c0fa83e8f2a6e148da3ccb0",
+      "name": "Other/Nav Icon Label",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "595:8180": {
+      "key": "3597e7a98a35aac7b6e2dafc2e63cade60342537",
+      "name": "Option Token/Gray/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "23:5": {
+      "key": "baa41bd9e2a61bbda89d56f05e689ac134ef51d2",
+      "name": "Gray / 100 - Primary",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "23:4063": {
+      "key": "a49b2c61558ed3959185082fce9f86f169f64971",
+      "name": "Headings/H4 - 18px - Inter Reg",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "23:37": {
+      "key": "8ad272034589f30cbb3a06fcd7c7a97be3bad060",
+      "name": "Paragraph/Body - Inter Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3449:92629": {
+      "key": "3f7f1ab0ff3d0b2b1d1e56c8470ac600ee55188b",
+      "name": "Gray / White",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1543:51941": {
+      "key": "c819e3732e00fe7059da892c41f02e0c44e12b05",
+      "name": "Gray / 40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2489": {
+      "key": "47a1b2a28d05d58c6616b9d5739decaa7cea54a4",
+      "name": "Down / Depth 2",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "595:8179": {
+      "key": "19d9ae3294d8e4873248fb8612fa58c51424e691",
+      "name": "Gray / 50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:92631": {
+      "key": "ce1dd4b2fbe00920911c3b8db75a842c5e0fad20",
+      "name": "Neutrals / Gray Primary",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:92632": {
+      "key": "775fe775df86f25e0efecd0994c77978a980c1fb",
+      "name": "Paragraph - 14px - Reg",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "689:13283": {
+      "key": "a97ca5f7cd156d5e3b921f313086febc421c12f6",
+      "name": "Gray / 0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "952:13124": {
+      "key": "c819e3732e00fe7059da892c41f02e0c44e12b05",
+      "name": "Gray / 40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:91970": {
+      "key": "66ca05d333b547b9fd46b125b85cf133ae0e5abe",
+      "name": "Gray / 110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "404:4045": {
+      "key": "0ac2cd68f80a8d7c55e879e4552d837b1e979be1",
+      "name": "Alerts/Error",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "691:13354": {
+      "key": "66b0b599d3eaf179c1d748448be5aa6b3ad024ea",
+      "name": "Gray / 60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4207:108611": {
+      "key": "55e3ecd55e481473cd75a39023fce21d757d1ce1",
+      "name": "🌈 brand/neutrals/brand-white",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3545:108921": {
+      "key": "6b606452a1c795aead633a9433a00112261b6c16",
+      "name": "🌈 palette/yellow/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "747:14871": {
+      "key": "0ca304c32765e847bba64b532e686c0141aa4532",
+      "name": "palette/gray/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2105:60257": {
+      "key": "c9ec83445501f9bbadb5c14da8c22b50b5d9ee30",
+      "name": "🌈 palette/Green/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2487": {
+      "key": "4ae1e36aaaa58262ae2f1981882d55d4687883ab",
+      "name": "🌈 palette/magenta/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2488": {
+      "key": "a8c54af07c963fb875042e98f518cd194a84604f",
+      "name": "🌈 palette/magenta/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2477": {
+      "key": "4d0fa5aa57a6939e21a7a655df38a207dd537202",
+      "name": "🌈 data vis/Magenta/vis-magenta-130",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2475": {
+      "key": "76d56b5b6ffe077a2f70de5f8c03a90b89099860",
+      "name": "🌈 data vis/Magenta/vis-magenta-120",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9403:2476": {
+      "key": "09e8594cb32e187873c952a3bf5ada3fdbd0b81e",
+      "name": "🌈 data vis/Magenta/vis-magenta-100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "12836:11963": {
+      "key": "ed32930569cbd03332d06bfb4bfa81e79a92bd70",
+      "name": "🌈 data vis/Blue/vis-Blue-100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:21762": {
+      "key": "69fd81aadd02f927778e33ba05513e97f524f267",
+      "name": "🌈 palette/orange/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:21761": {
+      "key": "c8e3dbce3eea93c49022c89f8296e9e1d0b0df2e",
+      "name": "🌈 palette/orange/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "12836:12049": {
+      "key": "c13d2f1703c4d60ce9055f1d4e2894495f761089",
+      "name": "🌈 brand/secondary/brand-orange-30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2078:62008": {
+      "key": "e7217c0c7d52719c641d33f77f0520ef354de1cf",
+      "name": "🌈 Misc/Nav Eyebrow",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "2078:61959": {
+      "key": "af757f8b445ce3a97c557fe566939a89715e73b7",
+      "name": "Down/Depth 2",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "1893:59642": {
+      "key": "aeb586dfe996a0b32eadefe2010ee0fc0ee5dbeb",
+      "name": "🌈 Type Scale/text-preset-12",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "12673:31355": {
+      "key": "b1b5cd87174e01271ef7daf682ac539b74802c0e",
+      "name": "🌈 palette/yellow/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:89933": {
+      "key": "7513c886ef33ced0e494e1c913527e98615ff8a2",
+      "name": "🌈 palette/pink/120",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1868:58032": {
+      "key": "18a9e40597ad7b159b4a122a8620f1b3a5e002f8",
+      "name": "Down/Depth 1",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "1566:51948": {
+      "key": "198d7792a36c17be9f5d0eb5a1fa7f3553391162",
+      "name": "Misc/12px - Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "832:28442": {
+      "key": "e9c279beb403956b81f3a38cb94fbf5f9ffb2abe",
+      "name": "colors.midgrey",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3978:108420": {
+      "key": "51d54c8d8118353d396ae0baee0f5fd64fe8dbb4",
+      "name": "🌈 palette/purple/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1578:51873": {
+      "key": "19cc01e37de44ce10bfef52c5055b969757cc055",
+      "name": "Down / Depth 3",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "1868:58034": {
+      "key": "e6e6996a25b957b765c1d85f16aafc928a3845d9",
+      "name": "🌈 palette/blue/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "6440:119620": {
+      "key": "d2b1154f9ed2abac0099f5ee6efe5c9285f3d34c",
+      "name": "Headings/H6 - 16px - Inter Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "18612:5508": {
+      "key": "db750f29961eca0fd1b24a4725d05c3ca90a652f",
+      "name": "Headings/H5 - 16px - Inter Reg",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "18612:5524": {
+      "key": "572719fc3e85fb85a3d6c2d14a3a5aca3ed3af58",
+      "name": "Gray / 10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#F8F8F9"
+    },
+    "17103:7450": {
+      "key": "214c3fe3d63d457993afcfbe11b3f08e4214e961",
+      "name": "Teal / 80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#016479\n"
+    },
+    "595:8187": {
+      "key": "244627b09d70072de96542eef10bea33bfd901d1",
+      "name": "Option Token/Green/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1374": {
+      "key": "fc4797c31adb7dafd2254413d574a3f3e9afa525",
+      "name": "🌈 palette/blue/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "18612:7108": {
+      "key": "c04de258aa40a4d5ccd0ed554ee6604c1dc99fca",
+      "name": "Body text/<p> Semi-bold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": "Use when creating a variant of weight within a block of reg weighted text"
+    },
+    "18612:7107": {
+      "key": "7ade413d00f355f73d65e1d5f26145e5590ff402",
+      "name": "Option Token/Gray/110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3508:85892": {
+      "key": "532034750f3a4ab96a41c0f17374e640eb2a6776",
+      "name": "Up/Depth 2",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "14111:4757": {
+      "key": "3162d0d7a027985444f3e3b034bf7aa747a87ac5",
+      "name": "🌈 palette/orange/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1621:52363": {
+      "key": "28958dfd67a27fbecb7d718090f218e5130d5461",
+      "name": "Gray / 0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "23:7": {
+      "key": "3294a3fd4a3be484bb2262ff0986868d9a6b3d7a",
+      "name": "Gray / 40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14044:1268": {
+      "key": "e54bed51104e5aab5dd05609c09c912e78d0dfb2",
+      "name": "🌈 status/status-good",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4207:108491": {
+      "key": "35c5db1e409976031c0fd5d5b2feb1f99fd11fac",
+      "name": "🌈 palette/blue/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14044:1269": {
+      "key": "04ef6d11937dc7feb127799b2ee1d398bbc42824",
+      "name": "🌈 status/status-sorta-good",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1268": {
+      "key": "14ab61f0dc3bbc92a8c1b9b1549dca06f8bcc04c",
+      "name": "🌈 status/status-ambiguous-2",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1376": {
+      "key": "dd393a87d7b770a720df3f6425102dcc05973d1e",
+      "name": "🌈 palette/purple/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1269": {
+      "key": "541ea9d27a7641cac5af2d30afb3ac3c20a203a0",
+      "name": "🌈 status/status-ambiguous-3",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1377": {
+      "key": "a02abe2272e712f61a5054b7d50d1953b745caaa",
+      "name": "🌈 palette/magenta/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1272": {
+      "key": "6461b7192dbd6c66a5f668714579624a9b670904",
+      "name": "🌈 status/status-sorta-bad",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1379": {
+      "key": "60a4d88e210ae98d74f05743d1b99d78c94210e5",
+      "name": "🌈 palette/orange/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1274": {
+      "key": "5ca830b7c121929874422b77593c646748a0731a",
+      "name": "🌈 status/status-archive-done-off",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1270": {
+      "key": "1267f7a9b738904babc94a154bf2af975e6c7016",
+      "name": "🌈 status/status-so-so",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1273": {
+      "key": "de6b5e671a8fb946614c636d590b9ee7b7cf6f3e",
+      "name": "🌈 status/status-bad",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13956:1637": {
+      "key": "b1b79345fb93c2970fe517ecc56dedbdaff066ab",
+      "name": "🌈 palette/Green/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1381": {
+      "key": "3ae21f839b9891c64a92e74f92fe0bdf427a06cc",
+      "name": "🌈 palette/blue/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1382": {
+      "key": "7aa0cc695466b12e8ee3c9e13a5f1eed27a97798",
+      "name": "🌈 palette/purple/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1384": {
+      "key": "9d3e0e7034775d9d653a7fc61e807a84460b0292",
+      "name": "🌈 palette/orange/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1385": {
+      "key": "721245675cd1ceb88bc5239cefdf761818a6184e",
+      "name": "🌈 palette/yellow/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1386": {
+      "key": "bb1729af19232fdbab9d12b0f1b02ece84fb70aa",
+      "name": "🌈 palette/red/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13957:1387": {
+      "key": "aea979b3fd54aec02df4babc38a3680fbf1186ba",
+      "name": "🌈 palette/purple/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14111:4754": {
+      "key": "38b460b6311af5ee74e543c32b89ff8b59a41244",
+      "name": "🌈 palette/Green/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24508": {
+      "key": "b5df89f6be1a40707391f966c109ff494e397444",
+      "name": "🌈 palette/blue/30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14111:4756": {
+      "key": "96cbb1f9a1234f7c95ed38580d1765f6fce97173",
+      "name": "🌈 palette/magenta/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "691:13375": {
+      "key": "221006eb70319cf17e3430d7e960c34b8322b48a",
+      "name": "🌈 palette/red/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14066:1271": {
+      "key": "11e49b8b33bf0c649cc8a5fdd8396db90556396f",
+      "name": "🌈 status/status-ambiguous-1",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14044:1270": {
+      "key": "e241043b3b60aea34d1df7ce7ea5b6ec6c895d71",
+      "name": "🌈 palette/teal/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14111:4755": {
+      "key": "3a93e5b70e92d40dfd51039a5c14769af502110b",
+      "name": "🌈 palette/teal/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4502:105951": {
+      "key": "ef249cce39540f28a8ac6853d575f486f985c6dd",
+      "name": "🌈 palette/yellow/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2105:60781": {
+      "key": "125eace4a855aed66d206afa00d88ad9aefe96fb",
+      "name": "🌈 palette/blue/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2105:60255": {
+      "key": "c087b0433455603e769a47b42a48242dfae53b64",
+      "name": "🌈 palette/purple/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "440:4302": {
+      "key": "17398d17f103d160093f9b362cf491dc0b030c9a",
+      "name": "🌈 palette/red/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4548:108034": {
+      "key": "20a43f85fa61abcb2ff99ff44d51506bdd757c08",
+      "name": "🌈 palette/orange/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1994:61939": {
+      "key": "d323c197cd15af48a3db39dd657ba44d4bd43606",
+      "name": "🌈 palette/yellow/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4548:108073": {
+      "key": "59a0f25867c3447e02574869f68d5091d64e2a70",
+      "name": "🌈 palette/Green/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1322:17025": {
+      "key": "c77888f2f8971330acae3e40febc1a7baec8aec5",
+      "name": "Actions / 2 (Primary)",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "Buttons, Links, other actions"
+    },
+    "1322:17026": {
+      "key": "0d43abf133b539e2ba4086513a80a405af2a7b23",
+      "name": "Base / 12 (White)",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1322:17027": {
+      "key": "c4757bc232a3bcaaeca5f637f2c80eab27244899",
+      "name": "Base/2 (Primary)",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "For Text and other primary elements"
+    },
+    "952:13165": {
+      "key": "84ce62adab17a062d85e0c353c1603ba1b614fdb",
+      "name": "Paragraph/Base - Regular",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1322:17029": {
+      "key": "5876933de5b97b6e1f5d6875259b9b1e0decb317",
+      "name": "Base / 7",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1322:17030": {
+      "key": "f0085c1cbadd1108f2825fd4e759cf50e6c38a88",
+      "name": "Base/5 (Secondary)",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "404:4040": {
+      "key": "bdbbb2c2612cc296a6665c67c03603d3fa6e3690",
+      "name": "Teal / 70 - Primary",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#128297\n"
+    },
+    "1012:19619": {
+      "key": "aeb586dfe996a0b32eadefe2010ee0fc0ee5dbeb",
+      "name": "🌈 Type Scale/text-preset-12",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "959:12093": {
+      "key": "9c7f96943d8bc1815611e1897b86af784cfbe94a",
+      "name": "palette/gray/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3306:80263": {
+      "key": "66de02c81582e4b19954850a17397a02334e2bf8",
+      "name": "Down/Depth 3",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "3306:79535": {
+      "key": "e241043b3b60aea34d1df7ce7ea5b6ec6c895d71",
+      "name": "🌈 palette/teal/10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "12665:29929": {
+      "key": "e56db2c6a4bc0229b197cc849bfbd0d61688752e",
+      "name": "🌈 Metrics/Metric (Large)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "2574:64562": {
+      "key": "05879f79928ae416d73a278b533e25d7188d5ca8",
+      "name": "🌈 Misc/Primary Metric Label",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "2051:58063": {
+      "key": "3f52cde4b8e7ecd6f7aaac2ab0ea932cc23f998f",
+      "name": "🌈 palette/Green/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "2578:64610": {
+      "key": "efbce7216790ee213352e3d33135d616236a0ac4",
+      "name": "🌈 Misc/Secondary Metric",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "2578:64611": {
+      "key": "1f0f71ce13ef3c1372a871843be038a2cc8dfb14",
+      "name": "🌈 Misc/Secondary Metric Label",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "12633:505": {
+      "key": "b966c5b13d163a160788023c709434a83f27b959",
+      "name": "🌈 data vis/Teal/vis-teal-100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "12665:31094": {
+      "key": "abc785214a8f421b049adcd20e416fed5d0a1e0a",
+      "name": "🌈 Metrics/Metric (Medium)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "4125:108497": {
+      "key": "912a60132bd5b2b31a7a747b80b21d8b850d3311",
+      "name": "🌈 palette/Green/110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "12663:29827": {
+      "key": "cfdadd4a77e99b5083c246a42c5cdde7aa19d5e5",
+      "name": "🌈 Metrics/Metric (Extra small)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3920:105381": {
+      "key": "bb772e977d69511d33bf85635eb4fd1acc222d09",
+      "name": "🌈 Misc/Extra Small Semi Bold (Inaccessiblie - review)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "12665:30142": {
+      "key": "ab7f843f745d12a62c4f48417eb09df20a46a470",
+      "name": "🌈 Metrics/Metric (Small)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "12633:1187": {
+      "key": "543610501b7101b2c3b304413907e84899c4a8dd",
+      "name": "🌈 palette/orange/110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4450:105768": {
+      "key": "955e8e775bb992ea89f194401f43671fcfec3819",
+      "name": "🌈 palette/yellow/120",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1502:54352": {
+      "key": "497ac5fe645e50e8c895815c2ad84873dad5ab56",
+      "name": "Option Token/Gray/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4125:108596": {
+      "key": "75818136066cca536b38511c845a6ae0fcfefb50",
+      "name": "🌈 palette/pink/110",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4125:108503": {
+      "key": "5b6363fbb8ff7e9bb3bf4131bdd2fcf5de157413",
+      "name": "🌈 palette/red/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3135:73086": {
+      "key": "0efe1ac149942e817136df6c2ed6187436f93264",
+      "name": "Down / Depth 1",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "4207:108490": {
+      "key": "dc9d4c1228fe1bb0c576f0d0a1315ddfb2302057",
+      "name": "🌈 palette/purple/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4207:108492": {
+      "key": "c74cfc8e5fdd8707092b8218631c7c2b6e1e0a04",
+      "name": "🌈 palette/pink/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3920:105380": {
+      "key": "ff37cc93553cf965d98ecde732076c2621380524",
+      "name": "🌈 Misc/Extra Small Regular (Inaccessiblie - review)",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3920:105374": {
+      "key": "39f9d5b952808d16eeb1f936080f3129b4a6db42",
+      "name": "🌈 palette/red/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4450:105765": {
+      "key": "d933a1b97d1f2499ec45e86aa546f5635309842b",
+      "name": "🌈 palette/Green/100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3920:105376": {
+      "key": "13729eaf8a5a3023c2adc636ecf5910408dcb094",
+      "name": "🌈 palette/Green/20",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1938:59279": {
+      "key": "20ddaaaec904e87740ce97bb9669419fc3c74162",
+      "name": "Option Token/Gray/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14861:2476": {
+      "key": "e68e1f39583723434970c8ca3b1d31c56c490877",
+      "name": "colors.pank",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14861:2475": {
+      "key": "187a5ae7ffe39d371527c93f9cad4b5779d1aab4",
+      "name": "neutrals/purple/1",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24504": {
+      "key": "2c7bbe50a1c05f5a1ba74830181e1e9cbc59367b",
+      "name": "Chrome/Light/background",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24505": {
+      "key": "31940b21efb45d5f2d218754f91f748206fa11e3",
+      "name": "Chrome/Light/Blue",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24506": {
+      "key": "07cb89585285677583681bfa47f73923ee7249d4",
+      "name": "White",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24507": {
+      "key": "9b8fc1380357c1cc73b697aef2ee227e01bb4f0f",
+      "name": "🌈 brand/primary/brand-pank",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24510": {
+      "key": "7b582c8bcd5c8ad199951650996020b0b3e62d2b",
+      "name": "Chrome/Light/Active Grey",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8715:24503": {
+      "key": "62d013b7a850f5cd7ed19f700728d00c2432f5bf",
+      "name": "Desktop/Desktop (12 Columns (Auto))",
+      "styleType": "GRID",
+      "remote": true,
+      "description": ""
+    },
+    "3449:89934": {
+      "key": "470faf192554e3e839158e256279941959c09132",
+      "name": "🌈 palette/blue/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9584:5225": {
+      "key": "6e290501707d116707ba1e68f978e73b08894505",
+      "name": "colors.amethyst.100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9584:17699": {
+      "key": "c359409e52b38eadb93112f9b02626d610a18b00",
+      "name": "🌈 brand/secondary/brand-purple-90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9621:7615": {
+      "key": "5ef265031b169bfe4d81cbccdf6149ffde1a7757",
+      "name": "🌈 brand/secondary/brand-purple-30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9584:17701": {
+      "key": "431557e139ddef65620dfdf02a769c54f04908fc",
+      "name": "🌈 brand/neutrals/brand-off-black",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9621:5140": {
+      "key": "69c318a6e55a1cb2e56d762d2d5f2de4c0b55066",
+      "name": "🌈 brand/neutrals/brand-lt-gray",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9621:5141": {
+      "key": "615f66efc90ae213c16d42a14b77fd8b7218de67",
+      "name": "🌈 brand/secondary/brand-magenta-90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "9584:17705": {
+      "key": "911a819431bf1bedd26b823260e6fa564eb51a86",
+      "name": "🌈 brand/secondary/brand-orange-90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:88346": {
+      "key": "534e16274acf5f041221e8fd9b8c4c791690bb11",
+      "name": "Stars / Active",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#EFBE53"
+    },
+    "3449:88347": {
+      "key": "72edeca10d26a1f7da3eb9fedcf454b498ad8cd7",
+      "name": "Stars / Stroke",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:88348": {
+      "key": "0887be4d95fa986d27ec41622692a00b590bde90",
+      "name": "Stars / Hover",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#FDEFD5"
+    },
+    "3449:88353": {
+      "key": "07e86adbcdc0eb5869a64b40eb854ead825f662e",
+      "name": "Paragraph/Body - Inter Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "8278:19897": {
+      "key": "c7a2dbf278b6e0ae799029e60c7ccef15b33e396",
+      "name": "🌈 data vis/Blue/vis-blue-130",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8278:19898": {
+      "key": "015c32a6c547d492a57b2a9f2990799bc2b6a97b",
+      "name": "🌈 data vis/Blue/vis-blue-30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8278:19899": {
+      "key": "844a77dcb1bee0c2d4b66419ded20d92b4da1961",
+      "name": "🌈 data vis/Neutrals/vis-neutral-60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:90007": {
+      "key": "ed6f041530463eb49053107abb0435a6564e11a5",
+      "name": "Groups / Orange 60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "FF7107"
+    },
+    "3449:90008": {
+      "key": "198d7792a36c17be9f5d0eb5a1fa7f3553391162",
+      "name": "Misc/12px - Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "3449:90009": {
+      "key": "d5916b0f98c201d863ff135fec413b579aefeada",
+      "name": "Status / Disabled",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "6A6C75\n"
+    },
+    "3449:90010": {
+      "key": "171d827a8713dc7b00f875c64b22ed807d49969c",
+      "name": "Green / 80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#009855"
+    },
+    "3449:90011": {
+      "key": "6392be3546fca3061f8ec9fbef8ecb00c47df79c",
+      "name": "Status / Public",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "00aa62\n"
+    },
+    "3449:90012": {
+      "key": "330529927ef248760520919c71356ef5c6657656",
+      "name": "Status / Warning + Staging",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "404:4047": {
+      "key": "c643960b739eeb33da09f4f2ea1cccc486c4f521",
+      "name": "Alerts/Warning",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:90013": {
+      "key": "8730fe10abdb39497aa713bca52b4ec71fddb786",
+      "name": "Status / Draft",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "07699B"
+    },
+    "1005:14110": {
+      "key": "6fedcbc54b3d01c2a028eea58316283a57c16092",
+      "name": "Neutrals / Grey 6",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:89935": {
+      "key": "5b82d6df2f45362183af661164cbd2160e894098",
+      "name": "🌈 palette/teal/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:89938": {
+      "key": "d9261629348c9aa37f9d0a55bfcbc4c0ac624f15",
+      "name": "🌈 palette/yellow/60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:89937": {
+      "key": "c84a4328c459f7aad574fe88661880b8e088ae60",
+      "name": "🌈 palette/purple/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14861:2474": {
+      "key": "c48e7837d88c51d6ed0abe22657cf28685e5814f",
+      "name": "🌈 brand/neutrals/brand-mid-gray",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "17103:7444": {
+      "key": "878735100a2de8082b882298eab6672aa6b890f1",
+      "name": "🌈 data vis/NPS/nps-viz-green-100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "17103:7445": {
+      "key": "f9b9d49430f9686ade0be472be6d7db3aee6ee31",
+      "name": "🌈 palette/pink/90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "17103:7447": {
+      "key": "54aa9d73278b6a13f16ae36ca7b7d4eaa10ee6cc",
+      "name": "🌈 palette/teal/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "17103:7448": {
+      "key": "b0db300f4a9c7a2b620172d33c9096379b9abbad",
+      "name": "🌈 data vis/Orange/vis-orange-100",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "4842:106386": {
+      "key": "bcf9459d6c159b0a32f7514449ef378269de3b05",
+      "name": "🌈 palette/yellow/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "3449:92256": {
+      "key": "198d7792a36c17be9f5d0eb5a1fa7f3553391162",
+      "name": "Misc/12px - Semibold",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "689:13485": {
+      "key": "397362b6075afa66400fb861896376d29c62cd4b",
+      "name": "Analytics / Primary 5",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "A973F2"
+    },
+    "689:13369": {
+      "key": "7478387024dd9801ddc83c3fb48d088bd6d38dbf",
+      "name": "Option Token/Red/40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51839": {
+      "key": "ce45dd6acf288f7332ad76f6f169a0ca1078b211",
+      "name": "Paths / Purple 60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "8029E9"
+    },
+    "1507:51840": {
+      "key": "19120583859b6679bb1477e486f8fe7d8564cd13",
+      "name": "Paths / Purple 30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "C29EF5"
+    },
+    "1507:51842": {
+      "key": "997738b403ce49934a609c97b364083eff89791a",
+      "name": "Text / Primary",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51841": {
+      "key": "7ab4c66bdd4cc1192d638ca9ad54944d1b530f8b",
+      "name": "Paths / Pink 90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "FF6582"
+    },
+    "1507:51845": {
+      "key": "b7422c8037f0228f8ad0fcaab183498533baf3bf",
+      "name": "Yellow / 30",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#FAE4B8"
+    },
+    "1507:51847": {
+      "key": "5cc17f1d461bcf633496772814ddcfac46bae43a",
+      "name": "Gray / 40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#DADCE5"
+    },
+    "404:4048": {
+      "key": "3a2cb9183fd62fef5ab86c7beb3bdc38be1e3937",
+      "name": "Alerts/Warning Light",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "FDEFD5"
+    },
+    "1507:51848": {
+      "key": "646a25c5fa6f627350e6aeed953d128bab958f20",
+      "name": "Misc/Nav Eyebrow",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51843": {
+      "key": "9c79ec3e5c660050c55071adb736c5d3913f7dba",
+      "name": "Gray / 90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#3A3C45"
+    },
+    "1507:51844": {
+      "key": "490162ef98b2e4f0c38c46cd4b7f64e6805fb497",
+      "name": "Down / Depth 4",
+      "styleType": "EFFECT",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51849": {
+      "key": "1b80e4ee65ca8c2a8b6bf6eb97a153fd78e82472",
+      "name": "Green / 40",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#55D099"
+    },
+    "1507:51851": {
+      "key": "db12e3bc0e0b2f879400d075985b2c39724c588d",
+      "name": "Lightest AA Contrast on White (Large Text, Icons, Charts)/Green",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51836": {
+      "key": "6aafeb4b387f27d2bf11fc206ca4f24c7f897c13",
+      "name": "Gray / 0",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "1507:51850": {
+      "key": "755bdad30edd940238d0f03fbb48e9346ce004fc",
+      "name": "Green / 10",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "#E3F7ED"
+    },
+    "1507:51854": {
+      "key": "834ffce180e8943c9b38dcb561ef0cc7a621cd0f",
+      "name": "Paths / Pink 50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "FFAAB2"
+    },
+    "595:8183": {
+      "key": "8a8c435986c4fde0851f712d37ca81e88ba362d5",
+      "name": "Option Token/Red/80",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "595:8186": {
+      "key": "9de718b3f74a7e8556b3acaac56d119276bbe839",
+      "name": "Option Token/Gray/50",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "13478:741": {
+      "key": "388e70d5ed00e898cd7ede4b7fcdc5c9ed88d40a",
+      "name": "🌈 brand/secondary/brand-blurple-90",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14909:383": {
+      "key": "2231dc54d1de89d984cbce9d98d34fb5c7a5e8ef",
+      "name": "🌈 brand/secondary/brand-blurple-60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14909:384": {
+      "key": "725a48fc1a20b9fd6e64d73aec7167ca0243749d",
+      "name": "🌈 brand/secondary/brand-purple-60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14909:387": {
+      "key": "53a09acf72534fedd2157d1f687500a2acf4e78d",
+      "name": "🌈 brand/secondary/brand-orange-60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14909:385": {
+      "key": "1913bc6a39477edd5a024ef361f533756e62e80b",
+      "name": "🌈 brand/secondary/brand-magenta-60",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "14909:386": {
+      "key": "216b705c7cd6f822050683c2b4803f80ff34f783",
+      "name": "🌈 palette/magenta/70",
+      "styleType": "FILL",
+      "remote": true,
+      "description": ""
+    },
+    "8278:19896": {
+      "key": "3821e33d3aa722e3532ab8eb1cd061eb1f3fa3a6",
+      "name": "Action",
+      "styleType": "FILL",
+      "remote": true,
+      "description": "Primary action, link."
+    }
+  }
+}

@@ -1,0 +1,193 @@
+# Pendo Component Library Cursor Rules
+
+## 🚨 MANDATORY: Always Check Design System First
+
+**BEFORE creating ANY component, styling, or UI element:**
+
+1. ✅ **READ** `DS package/AI_STYLE_REFERENCE.md` for quick implementation patterns
+2. ✅ **READ** `DS package/STYLE_GUIDE_AI.md` for comprehensive guidelines  
+3. ✅ **READ** `DS package/DS documentation doc.md` for component specifications
+4. ✅ **SEARCH** for the EXACT component type requested using grep/search tools
+5. ✅ **CROSS-REFERENCE** component purpose with documented DS patterns (e.g., "wizard" → "Full screen drawer/wizard")
+
+**CRITICAL: Use grep to search for component keywords BEFORE implementing. For example:**
+- Request: "wizard" → Search for: `wizard|stepper|step.*process|multi.*step`
+- Request: "dropdown" → Search for: `dropdown|select|menu`
+- Request: "modal" → Search for: `modal|dialog|overlay`
+
+**NEVER create custom styles without first checking if a DS pattern exists.**
+
+## 🎨 Design System Requirements
+
+### Color System
+- **Primary Brand**: Teal #128297 (`--color-teal-primary`)
+- **Text**: Gray-100 #2A2C35 (`--color-text-primary`)  
+- **Borders**: Gray-40/50 for light, Gray-70 for selectable
+- **Status Colors**: Green (success), Blue (info), Yellow (warning), Red (error)
+- **NEVER use arbitrary colors** - always reference the systematic palette
+
+### CSS Naming Convention (MANDATORY)
+```css
+.pendo-{component}                    /* Block */
+.pendo-{component}__element          /* Element */
+.pendo-{component}--modifier         /* Modifier */
+.pendo-{component}.is-state         /* State */
+.pendo-{component}.has-feature      /* Feature */
+```
+
+**Examples:**
+- `.pendo-button`, `.pendo-button--primary`, `.pendo-button.is-disabled`
+- `.pendo-wizard`, `.pendo-wizard__step`, `.pendo-wizard__step--active`
+
+### Component Standards
+- **Button height**: 36px (standard), 32px (small), 26px (mini)
+- **Input height**: 36px consistently
+- **Border radius**: 3px for most components
+- **Font family**: Inter (primary), Sora (display/headings)
+- **Font size**: 14px base
+- **Spacing**: 8px base unit (xs=4px, sm=8px, md=16px, lg=20px, xl=24px)
+
+### Required Component Features
+All components MUST include:
+- [ ] Default, hover, focus, disabled states
+- [ ] Proper ARIA attributes and roles
+- [ ] Keyboard navigation support
+- [ ] Screen reader compatibility
+- [ ] WCAG AA contrast compliance (4.5:1 minimum)
+
+## 🔧 Implementation Patterns
+
+### Buttons
+```jsx
+<button className="pendo-button pendo-button--primary">
+  Primary Action
+</button>
+```
+
+### Form Inputs
+```jsx
+<input className="pendo-input" 
+       placeholder="Enter text"
+       aria-label="Field description" />
+```
+
+### Form Groups
+```jsx
+<div className="pendo-form-group">
+  <label className="pendo-label">Label Text</label>
+  <input className="pendo-input" />
+</div>
+```
+
+## 📋 Icons
+- **ALWAYS use Lucide React icons** (referenced in project memory)
+- **Standard sizes**: 14px (most), 16px, 20px, 24px
+- **Stroke width**: 2.5 for most icons
+
+## 🚫 What NOT to Do
+
+- ❌ Create custom CSS without checking DS patterns first
+- ❌ Use arbitrary colors or spacing values
+- ❌ Skip accessibility attributes (ARIA, focus states)
+- ❌ Use generic class names like `.wizard` or `.button`
+- ❌ Hardcode styles instead of using design tokens
+- ❌ Create components without proper state management
+- ❌ Skip hover/focus/disabled states
+
+## 📁 Key Design System Files
+
+**ALWAYS reference these files:**
+- `DS package/AI_STYLE_REFERENCE.md` - Quick patterns & implementation
+- `DS package/STYLE_GUIDE_AI.md` - Comprehensive guidelines
+- `DS package/DS documentation doc.md` - Component specifications
+- `DS package/figma-file.json` - Figma component definitions
+
+## 🔍 Component Discovery Process
+
+**MANDATORY: Before implementing, perform this discovery sequence:**
+
+1. **Identify Component Type**: What is the user requesting? (e.g., wizard, dropdown, modal)
+2. **Search DS Documentation**: Use grep to find related patterns:
+   ```bash
+   grep -i "wizard|stepper|step" DS\ package/ -r
+   ```
+3. **Check Component Specifications**: Look for exact matches in documentation
+4. **Verify Use Cases**: Match the requested functionality with DS component purposes
+5. **Identify Correct Component**: Use the DS component, not a custom implementation
+
+**Example Discovery Process:**
+- User requests: "3 step wizard" 
+- Search reveals: "Full screen drawer/wizard" component
+- Documentation shows: "Multi-Step Full Screen Drawer (Wizard)" 
+- Result: Use full-screen drawer, not custom modal
+
+## 🎯 Component Creation Checklist
+
+Before creating ANY new component:
+
+1. [ ] **COMPLETED DISCOVERY PROCESS** using grep searches
+2. [ ] **IDENTIFIED CORRECT DS COMPONENT** (or confirmed none exists)
+3. [ ] Searched DS documentation for existing patterns
+4. [ ] Used `.pendo-` naming convention
+5. [ ] Applied correct spacing scale (8px increments)
+6. [ ] Used design system colors and typography
+7. [ ] Included all required states (default, hover, focus, disabled)
+8. [ ] Added proper ARIA attributes
+9. [ ] Ensured keyboard navigation works
+10. [ ] Tested with screen readers in mind
+11. [ ] Verified WCAG AA contrast compliance
+12. [ ] Used Lucide icons with correct sizing
+
+## 🔄 Validation Process
+
+When reviewing components:
+1. Validate against design system patterns
+2. Check naming conventions match BEM-like structure
+3. Ensure accessibility standards are met
+4. Verify responsive behavior
+5. Test keyboard navigation
+6. Confirm proper focus management
+
+## 💡 AI Assistant Instructions
+
+**For AI assistants working in this codebase:**
+
+1. **ALWAYS** start with the Component Discovery Process (grep searches first!)
+2. **NEVER** implement before searching for existing DS components
+3. **ALWAYS** cross-reference user requests with DS component purposes
+4. **ALWAYS** use the Pendo component naming convention
+5. **ALWAYS** include accessibility features from the start
+6. **ALWAYS** ask about design system compliance if unsure
+7. When creating forms, use the established input/label patterns
+8. When creating buttons, follow the button variant system
+9. For any interactive element, include proper focus and hover states
+10. **CREATE ACTUAL COMPONENT FILES** (`.tsx`, `.vue`, `.js`) that users can open and use, not Storybook stories unless explicitly requested
+11. **NEVER modify the DS package** directory unless explicitly told to add something there
+
+**Discovery-First Approach Example:**
+```
+User: "Build a 3 step wizard"
+1. grep -i "wizard|stepper|step" DS package/ -r
+2. Find: "Full screen drawer/wizard" component
+3. Use: Full screen drawer pattern, not custom modal
+4. Implement: Following DS specifications exactly
+```
+
+## 🎨 Theme Support
+
+Support both themes:
+- **App Theme** (default): Light backgrounds, teal primary
+- **P2-Dark Theme**: Dark backgrounds, white text, adjusted contrast
+
+Use CSS custom properties for theme-aware styling:
+```css
+.pendo-component {
+  background-color: var(--color-background-base);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border-base);
+}
+```
+
+---
+
+**Remember: The design system exists to ensure consistency, accessibility, and brand compliance. Always leverage it!**

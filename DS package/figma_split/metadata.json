@@ -1,0 +1,24 @@
+{
+  "original_file": "figma-file.json",
+  "split_timestamp": "2025-01-14",
+  "total_sections": 12,
+  "top_level_keys": [
+    "document",
+    "components",
+    "componentSets",
+    "schemaVersion",
+    "styles",
+    "name",
+    "lastModified",
+    "thumbnailUrl",
+    "version",
+    "role",
+    "editorType",
+    "linkAccess"
+  ],
+  "file_info": {
+    "name": "\ud83c\udf08 Prism Components",
+    "lastModified": "2025-08-13T19:23:13Z",
+    "version": "2251851525637800524"
+  }
+}
