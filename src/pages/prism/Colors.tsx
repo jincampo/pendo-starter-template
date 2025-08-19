@@ -201,7 +201,7 @@ export default function Colors() {
 
   return (
     <div className="prism-preview">
-      <h1>Color System</h1>
+      <h1 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Color System</h1>
       <p className="description">
         A comprehensive color palette designed for consistency and accessibility. Each color family 
         includes carefully crafted shades that work harmoniously together and meet WCAG contrast requirements.

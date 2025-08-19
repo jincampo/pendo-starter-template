@@ -1,21 +1,49 @@
-import '@/index.css';
+import React from 'react';
 import { PageHeader } from '@prism/page-header';
 import { Button } from '@prism/button';
 import { Icon } from '@prism/icon';
-import { Card } from '@prism/card';
+import ComponentShowcase, { ComponentInfo, ComponentStory } from '@/components/ComponentShowcase/ComponentShowcase';
 
-type PropExample = {
-  title: string;
-  description: string;
-  examples: React.ReactNode;
+// Component data for usage guidelines
+const componentInfo: ComponentInfo = {
+  id: 'page-header',
+  name: 'Page Header',
+  category: 'Layout',
+  description: 'Page headers provide consistent navigation and context at the top of pages. They can include titles, back links, breadcrumbs, and action buttons.',
+  usage: {
+    whenToUse: [
+      'At the top of every page for consistent navigation',
+      'To display page titles and context',
+      'For primary page actions and navigation',
+      'When users need to understand their current location',
+      'To provide consistent back navigation patterns'
+    ],
+    whenNotToUse: [
+      'Within modal dialogs or overlays',
+      'For section headers within a page',
+      'When the page already has a clear navigation pattern',
+      'In compact layouts where space is limited'
+    ],
+    accessibility: [
+      'Use proper heading hierarchy (h1 for page titles)',
+      'Include skip links for keyboard navigation',
+      'Ensure back links have clear labels',
+      'Maintain proper focus management for interactive elements'
+    ]
+  }
 };
 
-export default function PageHeaders() {
-  const propExamples: PropExample[] = [
+// Component stories with live examples  
+const PageHeaderDemo = (): ComponentStory[] => {
+  return [
     {
-      title: 'Basic Header',
+      id: 'basic',
+      name: 'Basic Header',
       description: 'A simple header with just a title.',
-      examples: (
+      code: `<PageHeader
+  title="Project Overview"
+/>`,
+      component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
             title="Project Overview"
@@ -24,9 +52,17 @@ export default function PageHeaders() {
       )
     },
     {
-      title: 'With Back Link',
+      id: 'with-back-link',
+      name: 'With Back Link',
       description: 'Header with a back link for navigation.',
-      examples: (
+      code: `<PageHeader
+  title="Project Settings"
+  backLink={{
+    label: "Back to Projects",
+    onClick: () => console.log('Back clicked')
+  }}
+/>`,
+      component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
             title="Project Settings"
@@ -39,20 +75,36 @@ export default function PageHeaders() {
       )
     },
     {
-      title: 'With Actions',
+      id: 'with-actions',
+      name: 'With Actions',
       description: 'Header with action buttons.',
-      examples: (
+      code: `<PageHeader
+  title="Team Members"
+  actions={
+    <>
+      <Button variant="secondary" size="small">
+        <Icon name="Download" size="small" />
+        Export
+      </Button>
+      <Button variant="primary" size="small">
+        <Icon name="Plus" size="small" />
+        Add Member
+      </Button>
+    </>
+  }
+/>`,
+      component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
             title="Team Members"
             actions={
               <>
                 <Button variant="secondary" size="small">
-                  <Icon name="UserPlus" size="small" className="mr-1" />
-                  Invite
+                  <Icon name="Download" size="small" />
+                  Export
                 </Button>
-                <Button size="small">
-                  <Icon name="Plus" size="small" className="mr-1" />
+                <Button variant="primary" size="small">
+                  <Icon name="Plus" size="small" />
                   Add Member
                 </Button>
               </>
@@ -62,130 +114,191 @@ export default function PageHeaders() {
       )
     },
     {
-      title: 'With Attribution',
-      description: 'Header showing who created the item and when it was last updated.',
-      examples: (
+      id: 'with-breadcrumbs',
+      name: 'With Breadcrumbs',
+      description: 'Header with breadcrumb navigation.',
+      code: `<PageHeader
+  title="User Profile"
+  breadcrumbs={[
+    { label: 'Dashboard', href: '/dashboard' },
+    { label: 'Users', href: '/users' },
+    { label: 'John Doe', current: true }
+  ]}
+/>`,
+      component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
-            title="Analytics Dashboard"
-            attribution={{
-              author: "John Smith"
-            }}
-            lastUpdated="2 days ago"
+            title="User Profile"
+            breadcrumbs={[
+              { label: 'Dashboard', href: '/dashboard' },
+              { label: 'Users', href: '/users' },
+              { label: 'John Doe', current: true }
+            ]}
           />
         </div>
       )
     },
     {
-      title: 'Complete Example',
-      description: 'Header with all features enabled.',
-      examples: (
+      id: 'with-description',
+      name: 'With Description',
+      description: 'Header with a descriptive subtitle.',
+      code: `<PageHeader
+  title="Analytics Dashboard"
+  description="View and analyze your application performance metrics"
+  actions={
+    <Button variant="primary" size="small">
+      <Icon name="RefreshCw" size="small" />
+      Refresh Data
+    </Button>
+  }
+/>`,
+      component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
-            title="Campaign Performance"
+            title="Analytics Dashboard"
+            description="View and analyze your application performance metrics"
+            actions={
+              <Button variant="primary" size="small">
+                <Icon name="RefreshCw" size="small" />
+                Refresh Data
+              </Button>
+            }
+          />
+        </div>
+      )
+    },
+    {
+      id: 'complex',
+      name: 'Complex Example',
+      description: 'Header with all features: breadcrumbs, back link, description, and actions.',
+      code: `<PageHeader
+  title="Campaign Details"
+  description="Manage and monitor your marketing campaign performance"
+  backLink={{
+    label: "Back to Campaigns",
+    onClick: () => console.log('Back clicked')
+  }}
+  breadcrumbs={[
+    { label: 'Marketing', href: '/marketing' },
+    { label: 'Campaigns', href: '/campaigns' },
+    { label: 'Black Friday Sale', current: true }
+  ]}
+  actions={
+    <>
+      <Button variant="secondary" size="small">
+        <Icon name="Share" size="small" />
+        Share
+      </Button>
+      <Button variant="secondary" size="small">
+        <Icon name="Settings" size="small" />
+        Settings
+      </Button>
+      <Button variant="primary" size="small">
+        <Icon name="Play" size="small" />
+        Launch Campaign
+      </Button>
+    </>
+  }
+/>`,
+      component: (
+        <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
+          <PageHeader
+            title="Campaign Details"
+            description="Manage and monitor your marketing campaign performance"
             backLink={{
               label: "Back to Campaigns",
               onClick: () => console.log('Back clicked')
             }}
+            breadcrumbs={[
+              { label: 'Marketing', href: '/marketing' },
+              { label: 'Campaigns', href: '/campaigns' },
+              { label: 'Black Friday Sale', current: true }
+            ]}
             actions={
               <>
                 <Button variant="secondary" size="small">
-                  <Icon name="Download" size="small" className="mr-1" />
-                  Export
+                  <Icon name="Share" size="small" />
+                  Share
                 </Button>
-                <Button size="small">
-                  <Icon name="Edit" size="small" className="mr-1" />
-                  Edit
+                <Button variant="secondary" size="small">
+                  <Icon name="Settings" size="small" />
+                  Settings
+                </Button>
+                <Button variant="primary" size="small">
+                  <Icon name="Play" size="small" />
+                  Launch Campaign
                 </Button>
               </>
             }
-            attribution={{
-              author: "Sarah Wilson"
-            }}
-            lastUpdated="Yesterday at 2:30 PM"
-            description="Track and analyze the performance metrics of your marketing campaigns."
           />
         </div>
       )
     }
   ];
+};
 
+// Props table component
+const PropsTable = () => (
+  <div className="overflow-x-auto">
+    <table className="w-full border-collapse border border-gray-300">
+      <thead>
+        <tr className="bg-gray-50">
+          <th className="border border-gray-300 px-4 py-2 text-left">Property</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Type</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Default</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">title</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">string</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Main page title</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">description</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">string</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Optional description or subtitle</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">backLink</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">{label: string, onClick: function}</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Back navigation link with label and handler</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">breadcrumbs</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">Array&lt;{label: string, href?: string, current?: boolean}&gt;</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Breadcrumb navigation items</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">actions</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">React.ReactNode</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Action buttons or other interactive elements</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">className</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">string</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
+          <td className="border border-gray-300 px-4 py-2 text-sm">Additional CSS classes</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+);
+
+export default function PageHeaderPage() {
+  const pageHeaderDemo = PageHeaderDemo();
+  
   return (
-    <div className="prism-preview">
-      <h1>Page Header</h1>
-      <p className="description">
-        Page headers provide consistent layout and styling for page titles, navigation, and key actions.
-        They support various configurations including back navigation, action buttons, and metadata.
-      </p>
-      
-      <section className="space-y-16">
-        {propExamples.map((example) => (
-          <div key={example.title} className="space-y-4">
-            <h2>{example.title}</h2>
-            <p className="description">{example.description}</p>
-            {example.examples}
-          </div>
-        ))}
-      </section>
-
-      <section className="mt-16">
-        <Card title="Props" className="mb-8">
-          <table className="w-full border-collapse">
-            <thead>
-              <tr>
-                <th className="text-left p-2 border-b border-[var(--color-gray-40)] paragraph-base-bold">Prop</th>
-                <th className="text-left p-2 border-b border-[var(--color-gray-40)] paragraph-base-bold">Type</th>
-                <th className="text-left p-2 border-b border-[var(--color-gray-40)] paragraph-base-bold">Description</th>
-                <th className="text-left p-2 border-b border-[var(--color-gray-40)] paragraph-base-bold">Default</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">title</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">string</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Title text displayed in the header</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">titleExtra</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">ReactNode</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Optional extra content to display next to the title</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">backLink</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">BackLinkConfig</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Configuration for the back link</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">actions</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">ReactNode</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Optional actions to display in the header</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">attribution</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">AttributionConfig</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Attribution information</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">lastUpdated</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">string</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Last updated timestamp</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono text-[var(--color-teal-70)]">description</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)] font-mono">string</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">Description text</td>
-                <td className="p-2 border-b border-[var(--color-gray-40)]">-</td>
-              </tr>
-            </tbody>
-          </table>
-        </Card>
-      </section>
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={pageHeaderDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

@@ -291,7 +291,7 @@ export default function Typography() {
 
   return (
     <div className="prism-preview">
-      <h1>Typography System</h1>
+      <h1 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Typography System</h1>
       <p className="description">
         Heading styles and scales using the modular major second scale (8:9 / multiplier 1.125x) to achieve relational
         harmony. Follow these typographic standards to ensure consistency and inject personality wherever writing for

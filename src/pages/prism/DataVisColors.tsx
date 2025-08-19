@@ -216,7 +216,7 @@ export default function DataVisColors() {
 
   return (
     <div className="prism-preview">
-      <h1>Data Visualization Colors</h1>
+      <h1 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Data Visualization Colors</h1>
       <p className="description">
         Color palettes specifically designed for data visualization, ensuring clarity and accessibility 
         in charts, graphs, and other data representations.
