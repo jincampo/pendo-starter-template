@@ -585,12 +585,10 @@ const PropsTable = () => (
 
 export default function Tooltips() {
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={componentStories}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={componentStories}
+      propsTable={<PropsTable />}
+    />
   );
 }

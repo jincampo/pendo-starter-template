@@ -106,7 +106,7 @@ const basicTabs = [
                 label: 'Overview',
                 content: (
                   <div style={{ padding: 'var(--spacing-md)' }}>
-                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-lg)' }}>Campaign Overview</h3>
+                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-3xl, 30px)' }}>Campaign Overview</h3>
                     <p style={{ margin: '0 0 var(--spacing-md) 0' }}>This tab contains the main overview information about your campaign performance, including key metrics and insights.</p>
                     <div style={{ 
                       display: 'grid', 
@@ -147,7 +147,7 @@ const basicTabs = [
                 badge: '5',
                 content: (
                   <div style={{ padding: 'var(--spacing-md)' }}>
-                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-lg)' }}>Analytics Dashboard</h3>
+                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-3xl, 30px)' }}>Analytics Dashboard</h3>
                     <p style={{ margin: '0 0 var(--spacing-md) 0' }}>Detailed analytics and performance metrics for your campaigns.</p>
                     <Alert variant="info" title="New Reports Available">
                       5 new analytics reports are ready for review.
@@ -160,7 +160,7 @@ const basicTabs = [
                 label: 'Settings',
                 content: (
                   <div style={{ padding: 'var(--spacing-md)' }}>
-                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-lg)' }}>Campaign Settings</h3>
+                    <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-3xl, 30px)' }}>Campaign Settings</h3>
                     <p style={{ margin: '0 0 var(--spacing-md) 0' }}>Configure your campaign settings and preferences.</p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)', maxWidth: '300px' }}>
                       <Input label="Campaign Name" placeholder="Enter campaign name" />
@@ -488,12 +488,10 @@ export default function TabsPage() {
   const tabsDemo = TabsDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={tabsDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={tabsDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

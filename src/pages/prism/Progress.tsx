@@ -324,12 +324,10 @@ export default function ProgressPage() {
   const progressDemo = ProgressDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={progressDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={progressDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

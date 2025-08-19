@@ -212,7 +212,7 @@ const TogglesDemo = (): ComponentStory[] => {
           padding: 'var(--spacing-lg)',
           maxWidth: '500px'
         }}>
-          <h4 style={{ margin: '0 0 var(--spacing-lg) 0', fontSize: 'var(--font-size-lg)' }}>Application Settings</h4>
+          <h4 style={{ margin: '0 0 var(--spacing-lg) 0', fontSize: 'var(--font-size-3xl, 30px)' }}>Application Settings</h4>
           
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-lg)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 'var(--spacing-md)' }}>

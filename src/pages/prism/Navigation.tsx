@@ -96,7 +96,7 @@ const [selectedItem, setSelectedItem] = useState('product');
             padding: 'var(--spacing-lg)'
           }}>
             <h2 style={{ 
-              fontSize: 'var(--font-size-xl)', 
+              fontSize: 'var(--font-size-3xl, 30px)', 
               color: 'var(--color-gray-100)', 
               margin: '0 0 var(--spacing-sm) 0' 
             }}>
@@ -148,7 +148,7 @@ const [selectedItem, setSelectedItem] = useState('product');
             padding: 'var(--spacing-lg)'
           }}>
             <h2 style={{ 
-              fontSize: 'var(--font-size-xl)', 
+              fontSize: 'var(--font-size-3xl, 30px)', 
               color: 'var(--color-gray-100)', 
               margin: '0 0 var(--spacing-sm) 0' 
             }}>
@@ -232,7 +232,7 @@ const handleSectionChange = (section) => {
               padding: 'var(--spacing-lg)'
             }}>
               <h2 style={{ 
-                fontSize: 'var(--font-size-xl)', 
+                fontSize: 'var(--font-size-3xl, 30px)', 
                 color: 'var(--color-gray-100)', 
                 margin: '0 0 var(--spacing-sm) 0' 
               }}>
@@ -323,7 +323,7 @@ const handleSectionChange = (section) => {
               backgroundColor: 'white'
             }}>
               <h1 style={{ 
-                fontSize: 'var(--font-size-xxl)', 
+                fontSize: 'var(--font-size-3xl, 30px)', 
                 color: 'var(--color-gray-100)', 
                 margin: 0 
               }}>

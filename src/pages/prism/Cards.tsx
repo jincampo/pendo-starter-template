@@ -72,7 +72,7 @@ const componentStories: ComponentStory[] = [
     component: (
       <div style={{ maxWidth: '400px' }}>
         <Card title="Example Card">
-          <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-lg)' }}>Custom Header</h3>
+          <h3 style={{ margin: '0 0 var(--spacing-sm) 0', fontSize: 'var(--font-size-3xl, 30px)' }}>Custom Header</h3>
           <p style={{ margin: 0 }}>Cards don't always need a title prop. You can include custom headers and content as children.</p>
         </Card>
       </div>

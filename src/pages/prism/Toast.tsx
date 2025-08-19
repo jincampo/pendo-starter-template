@@ -550,13 +550,11 @@ const ToastPageContent: React.FC = () => {
   const toastDemo = ToastDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={toastDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={toastDemo}
+      propsTable={<PropsTable />}
+    />
   );
 };
 

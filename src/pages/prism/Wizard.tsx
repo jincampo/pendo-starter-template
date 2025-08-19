@@ -290,13 +290,13 @@ const steps = [
           >
             {simpleStep === 0 ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
-                <h3>Basic Information</h3>
+                <h3 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Basic Information</h3>
                 <Input label="Name" placeholder="Enter your name" />
                 <Input label="Email" placeholder="Enter your email" type="email" />
               </div>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
-                <h3>Review Your Information</h3>
+                <h3 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Review Your Information</h3>
                 <p>Please review your details before continuing.</p>
                 <Alert variant="info" title="Almost Done">
                   Click "Done" to complete the setup process.
@@ -351,7 +351,7 @@ const steps = [
           >
             {onboardingStep === 0 && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-lg)', textAlign: 'center' }}>
-                <h2>👋 Welcome!</h2>
+                <h2 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>👋 Welcome!</h2>
                 <p>We're excited to have you on board. Let's get you set up in just a few quick steps.</p>
                 <Alert variant="info" title="Quick Setup">
                   This will only take a few minutes to complete.
@@ -360,7 +360,7 @@ const steps = [
             )}
             {onboardingStep === 1 && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
-                <h3>Set Up Your Profile</h3>
+                <h3 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Set Up Your Profile</h3>
                 <Input label="Full Name" placeholder="Enter your full name" />
                 <Input label="Job Title" placeholder="Your role or position" />
                 <Input label="Company" placeholder="Company name" />
@@ -368,7 +368,7 @@ const steps = [
             )}
             {onboardingStep === 2 && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
-                <h3>Customize Your Experience</h3>
+                <h3 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>Customize Your Experience</h3>
                 <p>Help us personalize your experience:</p>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-sm)' }}>
                   {['Marketing Professional', 'Product Manager', 'Developer', 'Other'].map((role) => (
@@ -390,7 +390,7 @@ const steps = [
             )}
             {onboardingStep === 3 && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-lg)', textAlign: 'center' }}>
-                <h2>🎉 You're All Set!</h2>
+                <h2 style={{ fontSize: 'var(--font-size-3xl, 30px)' }}>🎉 You're All Set!</h2>
                 <p>Your account has been configured and you're ready to start exploring.</p>
                 <Alert variant="success" title="Setup Complete">
                   Welcome to our platform! Click "Get Started" to begin your journey.
@@ -500,12 +500,10 @@ export default function WizardPage() {
   const wizardDemo = WizardDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={wizardDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={wizardDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

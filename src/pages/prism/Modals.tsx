@@ -458,12 +458,10 @@ export default function Modals() {
   const modalsDemo = ModalsDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={modalsDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={modalsDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

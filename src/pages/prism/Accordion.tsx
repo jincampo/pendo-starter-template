@@ -273,12 +273,10 @@ export default function AccordionPage() {
   const accordionDemo = AccordionDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={accordionDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={accordionDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }

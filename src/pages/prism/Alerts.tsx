@@ -256,12 +256,10 @@ export default function Alerts() {
   const alertsDemo = AlertsDemo();
   
   return (
-    <div className="main-content">
-      <ComponentShowcase 
-        component={componentInfo}
-        stories={alertsDemo}
-        propsTable={<PropsTable />}
-      />
-    </div>
+    <ComponentShowcase 
+      component={componentInfo}
+      stories={alertsDemo}
+      propsTable={<PropsTable />}
+    />
   );
 }
