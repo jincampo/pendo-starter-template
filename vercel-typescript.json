@@ -5,9 +5,10 @@
       "destination": "/index.html"
     }
   ],
-  "buildCommand": "npm run build:safe",
+  "buildCommand": "npm run build:vercel",
   "outputDirectory": "dist",
   "installCommand": "npm ci",
+
   "env": {
     "NODE_ENV": "production",
     "SKIP_PREFLIGHT_CHECK": "true"
