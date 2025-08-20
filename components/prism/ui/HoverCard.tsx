@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Icon } from './icon';
-import { MetricProps } from './metric';
+import type { MetricProps } from './metric';
 
 export interface HoverCardProps {
   title: string;

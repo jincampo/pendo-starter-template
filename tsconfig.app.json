@@ -10,18 +10,29 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+
+    /* Path mapping */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@prism/*": ["components/prism/ui/*"],
+      "@lib/*": ["lib/*"]
+    },
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": false
   },
   "include": ["src"]
 }

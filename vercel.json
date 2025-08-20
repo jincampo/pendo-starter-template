@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!api|_next|_static|_vercel|favicon.ico|assets).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install"
+}

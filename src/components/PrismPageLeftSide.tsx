@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import prismLogo from '@/assets/prism-logo.png'
 
-type Page = 'home' | 'typography' | 'colors' | 'data-vis-colors' | 'buttons' | 'icons' | 'tags' | 'metrics' | 'page-headers' | 'page-templates' | 'cards' | 'hover-card' | 'dropdowns' | 'charts' | 'tables' | 'toggles' | 'checkboxes' | 'inputs' | 'navigation' | 'radios' | 'alerts' | 'modals' | 'wizard' | 'tooltips' | 'breadcrumbs' | 'tabs' | 'toast' | 'accordion' | 'progress' | 'divider' | 'radio-button-group' | 'time-picker' | 'date-picker' | 'color-picker'
+type Page = 'home' | 'typography' | 'colors' | 'data-vis-colors' | 'buttons' | 'icons' | 'tags' | 'metrics' | 'page-headers' | 'page-templates' | 'cards' | 'hover-card' | 'dropdowns' | 'charts' | 'tables' | 'toggles' | 'checkboxes' | 'inputs' | 'navigation' | 'radios' | 'alerts' | 'modals' | 'wizard' | 'tooltips' | 'breadcrumbs' | 'tabs' | 'toast' | 'accordion' | 'progress' | 'divider' | 'radio-button-group' | 'time-picker' | 'date-picker' | 'color-picker' | 'ask-prism'
 
 interface PrismPageLeftSideProps {
   currentPage: Page
@@ -85,6 +85,35 @@ export function PrismPageLeftSide({
         />
       </div>
       
+      {/* Ask Prism Button */}
+      <div className="px-4 pb-4">
+        <button
+          onClick={() => navigate('/prism/ask-prism')}
+          className="w-full flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-[var(--color-teal-70)] to-[var(--color-teal-80)] text-white rounded-lg hover:from-[var(--color-teal-80)] hover:to-[var(--color-teal-90)] transition-all duration-200 shadow-sm hover:shadow-md group"
+        >
+          <div className="w-6 h-6 bg-white/20 rounded-md flex items-center justify-center">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <div className="flex-1 text-left">
+            <div className="font-medium text-sm">Ask Prism</div>
+            <div className="text-xs text-white/80">Get AI-powered component recommendations</div>
+          </div>
+          <svg 
+            width="16" 
+            height="16" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2" 
+            className="text-white/60 group-hover:text-white/80 transition-colors"
+          >
+            <path d="9 18l6-6-6-6"/>
+          </svg>
+        </button>
+      </div>
+
       {/* Search Bar */}
       <div className="px-4 pb-6">
         <div className="relative">

@@ -33,6 +33,7 @@ import ColorPickerPage from './pages/prism/ColorPicker'
 import DividerPage from './pages/prism/Divider'
 import AccordionPage from './pages/prism/Accordion'
 import ProgressPage from './pages/prism/Progress'
+import AskPrismPage from './pages/prism/AskPrism'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './pages/prism/Layout'
@@ -78,6 +79,7 @@ function App() {
           <Route path="/prism/divider" element={<DividerPage />} />
           <Route path="/prism/accordion" element={<AccordionPage />} />
           <Route path="/prism/progress" element={<ProgressPage />} />
+          <Route path="/prism/ask-prism" element={<AskPrismPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

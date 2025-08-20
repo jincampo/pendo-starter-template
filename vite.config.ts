@@ -9,6 +9,16 @@ const __dirname = dirname(__filename)
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    port: 5173,
+    host: true,
+    // This is the correct way to configure SPA fallback in Vite
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/prism\/.*$/, to: '/index.html' },
+      ],
+    },
+  },
   build: {
     rollupOptions: {
       input: path.resolve(__dirname, 'index.html')

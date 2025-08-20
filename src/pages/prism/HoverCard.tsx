@@ -95,10 +95,8 @@ const HoverCardDemo = (): ComponentStory[] => {
   title="Conversion Rules"
   body="Active rules that determine when conversions are tracked."
   metrics={metricsExample}
-  viewRules={{
-    count: 3,
-    onClick: () => console.log('View rules clicked')
-  }}
+  onViewRules={() => console.log('View rules clicked')}
+  rulesCount={3}
 />`,
       component: (
         <div className="max-w-md">
@@ -106,10 +104,8 @@ const HoverCardDemo = (): ComponentStory[] => {
             title="Conversion Rules"
             body="Active rules that determine when conversions are tracked."
             metrics={metricsExample}
-            viewRules={{
-              count: 3,
-              onClick: () => console.log('View rules clicked')
-            }}
+            onViewRules={() => console.log('View rules clicked')}
+            rulesCount={3}
           />
         </div>
       )
@@ -122,11 +118,7 @@ const HoverCardDemo = (): ComponentStory[] => {
   title="Segment Performance"
   body="Performance data for your targeted user segments."
   metrics={metricsExample}
-  tagAction={{
-    label: "High Priority",
-    variant: "warning",
-    onClick: () => console.log('Tag clicked')
-  }}
+  tag={<span className="px-2 py-1 text-xs bg-yellow-100 text-yellow-800 rounded">High Priority</span>}
 />`,
       component: (
         <div className="max-w-md">
@@ -134,11 +126,11 @@ const HoverCardDemo = (): ComponentStory[] => {
             title="Segment Performance"
             body="Performance data for your targeted user segments."
             metrics={metricsExample}
-            tagAction={{
-              label: "High Priority",
-              variant: "warning",
-              onClick: () => console.log('Tag clicked')
-            }}
+            tag={
+              <span className="px-2 py-1 text-xs bg-yellow-100 text-yellow-800 rounded">
+                High Priority
+              </span>
+            }
           />
         </div>
       )
@@ -179,15 +171,13 @@ const HoverCardDemo = (): ComponentStory[] => {
               { metricText: '18.5%', seriesName: 'Conversion Rate' },
               { metricText: '₹45,230', seriesName: 'Revenue' },
             ]}
-            viewRules={{
-              count: 8,
-              onClick: () => console.log('View campaign rules')
-            }}
-            tagAction={{
-              label: "Active Campaign",
-              variant: "success",
-              onClick: () => console.log('Campaign tag clicked')
-            }}
+            onViewRules={() => console.log('View campaign rules')}
+            rulesCount={8}
+            tag={
+              <span className="px-2 py-1 text-xs bg-green-100 text-green-800 rounded">
+                Active Campaign
+              </span>
+            }
           />
         </div>
       )
@@ -234,19 +224,19 @@ const PropsTable = () => (
         </tr>
         <tr>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">metrics</td>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">Array&lt;{metricText: string, seriesName: string}&gt;</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">Array&lt;&#123;metricText: string, seriesName: string&#125;&gt;</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">[]</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">Array of metric objects to display</td>
         </tr>
         <tr>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">viewRules</td>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">{count: number, onClick: function}</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">&#123;count: number, onClick: function&#125;</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">View rules action with count and click handler</td>
         </tr>
         <tr>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">tagAction</td>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">{label: string, variant: string, onClick: function}</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">&#123;label: string, variant: string, onClick: function&#125;</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">Tag action with label, variant, and click handler</td>
         </tr>

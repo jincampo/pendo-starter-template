@@ -35,7 +35,8 @@ type PageType =
   | 'radio-button-group'
   | 'time-picker'
   | 'date-picker'
-  | 'color-picker';
+  | 'color-picker'
+  | 'ask-prism';
 
 type TypographySectionType =
   | 'text-presets'

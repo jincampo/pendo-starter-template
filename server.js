@@ -2,29 +2,19 @@ import express from 'express';
 import compression from 'compression';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
-import fs from 'fs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 
 app.use(compression());
+
+// Serve static files from dist directory
 app.use(express.static('dist'));
 
-// Serve static files
-app.get('/', (req, res) => {
+// SPA fallback: serve index.html for all routes that don't match static files
+// This ensures that React Router can handle client-side routing
+app.get('*', (req, res) => {
   res.sendFile(resolve(__dirname, 'dist/index.html'));
-});
-
-// Handle all prism routes
-app.get('/prism/:page', (req, res) => {
-  const page = req.params.page;
-  const filePath = resolve(__dirname, `dist/pages/${page}/index.html`);
-  
-  if (fs.existsSync(filePath)) {
-    res.sendFile(filePath);
-  } else {
-    res.redirect('/');
-  }
 });
 
 const port = process.env.PORT || 3000;

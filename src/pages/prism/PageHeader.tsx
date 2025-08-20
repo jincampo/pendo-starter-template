@@ -119,21 +119,19 @@ const PageHeaderDemo = (): ComponentStory[] => {
       description: 'Header with breadcrumb navigation.',
       code: `<PageHeader
   title="User Profile"
-  breadcrumbs={[
-    { label: 'Dashboard', href: '/dashboard' },
-    { label: 'Users', href: '/users' },
-    { label: 'John Doe', current: true }
-  ]}
+  backLink={{
+    label: 'Back to Users',
+    onClick: () => console.log('Back clicked')
+  }}
 />`,
       component: (
         <div className="border border-[var(--color-gray-30)] rounded-[3px] bg-white">
           <PageHeader
             title="User Profile"
-            breadcrumbs={[
-              { label: 'Dashboard', href: '/dashboard' },
-              { label: 'Users', href: '/users' },
-              { label: 'John Doe', current: true }
-            ]}
+            backLink={{
+              label: 'Back to Users',
+              onClick: () => console.log('Back clicked')
+            }}
           />
         </div>
       )
@@ -209,11 +207,7 @@ const PageHeaderDemo = (): ComponentStory[] => {
               label: "Back to Campaigns",
               onClick: () => console.log('Back clicked')
             }}
-            breadcrumbs={[
-              { label: 'Marketing', href: '/marketing' },
-              { label: 'Campaigns', href: '/campaigns' },
-              { label: 'Black Friday Sale', current: true }
-            ]}
+
             actions={
               <>
                 <Button variant="secondary" size="small">
@@ -264,13 +258,13 @@ const PropsTable = () => (
         </tr>
         <tr>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">backLink</td>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">{label: string, onClick: function}</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">&#123;label: string, onClick: function&#125;</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">Back navigation link with label and handler</td>
         </tr>
         <tr>
           <td className="border border-gray-300 px-4 py-2 font-mono text-sm">breadcrumbs</td>
-          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">Array&lt;{label: string, href?: string, current?: boolean}&gt;</td>
+          <td className="border border-gray-300 px-4 py-2 font-mono text-sm">Array&lt;&#123;label: string, href?: string, current?: boolean&#125;&gt;</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">-</td>
           <td className="border border-gray-300 px-4 py-2 text-sm">Breadcrumb navigation items</td>
         </tr>
