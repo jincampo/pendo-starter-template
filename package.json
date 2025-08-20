@@ -3,11 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npx tsc -p tsconfig.app.json && npx vite build",
+    "build:vercel": "npx tsc --skipLibCheck --noEmit && npx vite build",
+    "build:safe": "npx vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
