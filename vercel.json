@@ -7,17 +7,5 @@
   ],
   "buildCommand": "npm run build:safe",
   "outputDirectory": "dist",
-  "installCommand": "npm ci",
-  "env": {
-    "NODE_ENV": "production",
-    "SKIP_PREFLIGHT_CHECK": "true"
-  },
-  "build": {
-    "env": {
-      "NODE_ENV": "production",
-      "SKIP_ENV_VALIDATION": "1",
-      "SKIP_PREFLIGHT_CHECK": "true",
-      "GENERATE_SOURCEMAP": "false"
-    }
-  }
+  "installCommand": "npm install"
 }
